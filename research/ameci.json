@@ -1,0 +1,102 @@
+{
+  "empresa": "Ingeniería y Construcciones AMECI Limitada",
+  "slug": "ameci",
+  "rubro": "Ingeniería, construcción, montaje y mantenimiento industrial EPC con foco en gran minería.",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "EPC montajista minero que ejecuta obra eléctrica/control de instalación (ej. gabinetes DCS en Caletones) pero subcontrata la ingeniería de control especializada (SCADA/PMU/I&C), complementaria a CONECTA.",
+  "quien_es": {
+    "descripcion": "Empresa de Quillota (Región de Valparaíso) fundada en 2007, de servicios integrales de ingeniería, construcción, montaje industrial y mantenimiento industrial bajo modalidad EPC, con foco en proyectos de gran minería en Chile.",
+    "fundada": "31-10-2007 (inicio de actividades SII 10-01-2008)",
+    "dotacion": "~187 trabajadores (ChilePymes)",
+    "facturacion": "Tramo de ventas 9 (SII); monto exacto no verificado",
+    "matriz_grupo": "Controlada por Fernando Espejo Órdenes y Sebastián Moyano Espejo (50% c/u desde 15-05-2015)",
+    "rut": "76.006.925-6",
+    "sede": "Diego Echeverría 660, Quillota, Región de Valparaíso, Chile",
+    "fuentes": [
+      "https://www.ameci.cl/",
+      "https://www.ameci.cl/wp-content/uploads/2018/08/Brochure-AMECI.pdf",
+      "https://chilepymes.com/info/ingenieria-y-construcciones-ameci-limitada-44E02C727C6E71FD"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería de detalles",
+      "Construcción",
+      "Montaje industrial",
+      "Mantenimiento industrial",
+      "EPC (Engineering, Procurement, Construction)"
+    ],
+    "rol_cadena": "EPC de montaje electromecánico y obra para minería; ejecuta obras eléctricas y de control de instalación (cambios de gabinetes de control DCS), pero la ingeniería de control especializada (SCADA, PMU, instrumentación) suele subcontratarse.",
+    "fuentes": [
+      "https://www.ameci.cl/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Instalación de Anillo de Fibra Óptica (~80 km, aéreo y soterrado)",
+      "cliente": "Compañía Minera Doña Inés de Collahuasi",
+      "ubicacion": "Sectores Coposa, Ujina y Rosario, Faena Cordillera, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.ameci.cl/"
+    },
+    {
+      "proyecto": "Sistema de control, manejo y limpieza de gases — Fundición Caletones",
+      "cliente": "CODELCO División El Teniente",
+      "ubicacion": "Caletones, Región de O'Higgins, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.ameci.cl/"
+    },
+    {
+      "proyecto": "Banco de Autotransformadores 1x750 MVA — S/E Nueva Cardones, Maitencillo y Pan de Azúcar",
+      "cliente": "Siemens Energy / ISA InterChile",
+      "ubicacion": "Chile (norte y centro)",
+      "monto": "no verificado",
+      "fuente": "https://www.ameci.cl/"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Fernando Espejo Órdenes",
+      "cargo": "Gerente General (socio controlador 50%)",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.ameci.cl/"
+    },
+    {
+      "nombre": "Sebastián Felipe Moyano Espejo",
+      "cargo": "Gerente de Negocios Corporativos (socio controlador 50%)",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.ameci.cl/"
+    },
+    {
+      "nombre": "Cristian Espejo Vergara",
+      "cargo": "Gerente de Operaciones",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/cristian-espejo-vergara-80a42a43",
+      "fuente": "https://cl.linkedin.com/in/cristian-espejo-vergara-80a42a43"
+    },
+    {
+      "nombre": "Andrea Pervan La Paz",
+      "cargo": "Gerente de Administración y Finanzas (también ex Jefe de Ingeniería)",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/andrea-pervan-la-paz-43215772",
+      "fuente": "https://cl.linkedin.com/in/andrea-pervan-la-paz-43215772"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Diego Echeverría 660, Quillota, Región de Valparaíso, Chile",
+    "telefono": "(33) 231 3051 / +56 9 7667 7009",
+    "correo": "ameci@ameci.cl",
+    "web": "https://www.ameci.cl",
+    "fuente": "https://www.ameci.cl/"
+  }
+}
