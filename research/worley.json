@@ -1,0 +1,116 @@
+{
+  "empresa": "Worley Ingeniería y Construcción Chile SpA (ex Jacobs Engineering / WorleyParsons Chile)",
+  "slug": "worley",
+  "rubro": "EPCM e ingeniería de energía, minería y metales (cobre y litio)",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "EPCM global con oficina en Chile que gestiona la ingeniería de detalle y el procurement pero subcontrata la especialidad de control e instrumentación (SCADA/DCS/relés IEC 61850) — canal para que CONECTA provea e integre esos sistemas",
+  "quien_es": {
+    "descripcion": "Filial chilena de Worley Limited (Australia), uno de los mayores proveedores globales de servicios de ingeniería y EPCM para energía, química y recursos. En Chile opera el negocio heredado de Jacobs Engineering (adquirido por WorleyParsons en abril de 2019, tras lo cual la firma pasó a llamarse Worley). Su oficina de Santiago funciona como Centro de Excelencia para cobre, litio, minería subterránea y manejo de materiales, con más de 800 profesionales. En octubre de 2022, Worley Chile S.A. (RUT 96.539.000-6) se disolvió por fusión e incorporó a Worley Ingeniería y Construcción Chile SpA.",
+    "fundada": "1971 (Worley, matriz australiana, fundada por John Grill); negocio Jacobs ECR adquirido en 2019",
+    "dotacion": "~45.500 empleados globales (Worley, 2025); >800 profesionales en la oficina de Santiago",
+    "facturacion": "Ingresos globales Worley FY2025: A$12.050 millones. Facturación de la filial chilena: no verificado",
+    "matriz_grupo": "Worley Limited (ASX: WOR), Sydney, Australia",
+    "rut": "96.588.850-0",
+    "sede": "Av. Apoquindo 5400, Piso 11, Las Condes, Santiago, Chile",
+    "fuentes": [
+      "https://www.worley.com/en/about-us/where-we-operate/chile",
+      "https://www.worley.com/en/about-us/our-story",
+      "https://www.worley.com/en/investor-relations/results-and-presentations/annual-report",
+      "https://www.sec.gov/Archives/edgar/data/52988/000114036119007768/nc10001302x1_8k.htm",
+      "https://www.portalchile.org/empresa/worley-ingenieria-y-construccion-chile-sa-96588850",
+      "https://www.portalchile.org/diario-oficial/2022/11/26/worley-chile-s-a-96-539-000-6-2223794"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería conceptual, básica y de detalle",
+      "EPCM (Engineering, Procurement, Construction Management)",
+      "Gestión de proyectos",
+      "Consultoría y estudios ambientales",
+      "Estudios de factibilidad y prefactibilidad",
+      "Ingeniería de minería (cobre, litio, minería subterránea) y energía"
+    ],
+    "rol_cadena": "EPCM: lidera la ingeniería de detalle y el procurement y gestiona la construcción, subcontratando especialidades locales de electricidad, instrumentación y control. No fabrica ni integra sistemas de control — espacio para que CONECTA actúe como proveedor/integrador de SCADA/DCS/protecciones en sus proyectos.",
+    "fuentes": [
+      "https://www.worley.com/en/about-us/where-we-operate/chile",
+      "https://www.gbreports.com/files/pdf/Company-profiles-2023/3__Overview_Latam.pdf"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Estudio Principal de Factibilidad del Proyecto Desarrollo Futuro Andina",
+      "cliente": "Codelco",
+      "ubicacion": "División Andina, Región de Valparaíso, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.codelco.com/estudio-principal-factibilidad-proyecto-desarrollo-futuro-an-0"
+    },
+    {
+      "proyecto": "Ingeniería FEL 2A (proyecto CE-001)",
+      "cliente": "Codelco",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.codelco.com/ce-001-ingenieria-fel-2a"
+    },
+    {
+      "proyecto": "Servicios de ingeniería complementaria (macrobloques norte y sur, sistema de traspaso de mineral, ingeniería conceptual blindaje de piques) — Contrato N°4501809390",
+      "cliente": "Codelco (VP-PMCHS)",
+      "ubicacion": "Chile",
+      "monto": "USD 221.535",
+      "fuente": "https://www.alercechile.cl/documentos/catalogo_alerce_2021_esp.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Andrea Casciano",
+      "cargo": "Country Director & Vice President Operations Chile, Worley",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://es.linkedin.com/posts/andrea-casciano-b713ba78_worley-chile-activity-7009622395862831104-j8zc",
+      "fuente": "https://es.linkedin.com/posts/andrea-casciano-b713ba78_worley-chile-activity-7009622395862831104-j8zc"
+    },
+    {
+      "nombre": "Marco Antonio Sonatore Vargas",
+      "cargo": "Gerente de Ingeniería, Worley Chile",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/marco-antonio-sonatore-vargas-048088245",
+      "fuente": "https://cl.linkedin.com/in/marco-antonio-sonatore-vargas-048088245"
+    },
+    {
+      "nombre": "Freddy Troncoso",
+      "cargo": "Gerente de Proyectos y de Ingeniería, Minería y Metales, Worley Chile",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/freddy-troncoso-b85a6246",
+      "fuente": "https://cl.linkedin.com/in/freddy-troncoso-b85a6246"
+    },
+    {
+      "nombre": "Manfred Goehring Hube",
+      "cargo": "Gerente de Construcción de Proyectos, Worley Chile",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/manfred-goehring-hube-b79a32111",
+      "fuente": "https://cl.linkedin.com/in/manfred-goehring-hube-b79a32111"
+    },
+    {
+      "nombre": "Claudio Martinez",
+      "cargo": "VP Global Copper Sector Lead, Worley (basado en Santiago)",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://www.worley.com/en/about-us/our-people/claudio-martinez",
+      "fuente": "https://www.worley.com/en/about-us/our-people/claudio-martinez"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Av. Apoquindo 5400, Piso 11, Las Condes, Santiago 7560910, Chile",
+    "telefono": "+56 2 2336 3500",
+    "correo": "",
+    "web": "https://www.worley.com",
+    "fuente": "https://www.worley.com/en/about-us/where-we-operate/chile"
+  }
+}
