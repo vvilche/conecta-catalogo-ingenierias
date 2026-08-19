@@ -1,0 +1,125 @@
+{
+  "empresa": "Ausenco Chile Limitada",
+  "slug": "ausenco",
+  "rubro": "Ingeniería, consultoría, EPCM y comisionamiento para minería y metales (cobre, litio), energía, agua e infraestructura",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "EPCM/consultora de minería que especifica y subcontrata la especialidad eléctrica/control (SCADA, protecciones IEC 61850, instrumentación, DCS) a integradores como CONECTA",
+  "quien_es": {
+    "descripcion": "Filial chilena de Ausenco, empresa global de ingeniería, consultoría, entrega de proyectos (project delivery), optimización de activos, comisionamiento, operación y mantenimiento, especializada en minerales, metales, energía, agua e infraestructura. Ofrece estudios de prefactibilidad/factibilidad, ingeniería básica y de detalle, FEED, procura, gestión de construcción, puesta en marcha y soporte operacional, incluyendo plantas concentradoras, desaladoras, puertos, manejo de relaves y transporte de pulpas.",
+    "fundada": "1991 (Brisbane, Australia; más de 30 años de operación global)",
+    "dotacion": "~900 colaboradores en Chile (2022); más de 1.500 en Sudamérica; más de 3.000 a nivel global",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Ausenco, casa matriz en South Brisbane (Queensland, Australia)",
+    "rut": "78.727.440-4",
+    "sede": "Av. Las Condes 11283, Piso 6, Las Condes, Santiago, Región Metropolitana, Chile (CP 7590992)",
+    "fuentes": [
+      "https://ausenco.com/contact-us/our-offices/?region=south-america",
+      "https://en.wikipedia.org/wiki/Ausenco",
+      "https://ausenco.com/assets/documents/revista-chilena-de-mineria-article-2022.pdf",
+      "https://www.direcmin.com/ausenco-chile-ltda/informacion-de-contacto",
+      "https://chilepymes.com/info/ausenco-chile-limitada-651D779A6D15F028"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Estudios conceptuales, de prefactibilidad y factibilidad",
+      "Ingeniería básica y de detalle",
+      "EPCM (ingeniería, procura y gestión de construcción)",
+      "Comisionamiento y puesta en marcha",
+      "Soporte operacional y optimización de activos",
+      "Infraestructura asociada: desaladoras, puertos, relaves, pipelines"
+    ],
+    "rol_cadena": "EPCM y consultora: gestiona ingeniería, procura y construcción (construction management), pero NO hace el montaje eléctrico/control con personal propio; especifica y subcontrata las especialidades de instrumentación, control y eléctrica a integradores especializados. La capa de control (SCADA, PMU, relés IEC 61850, DCS, instrumentación) es precisamente el espacio de CONECTA.",
+    "fuentes": [
+      "https://ausenco.com/projects/mantoverde-capital-efficient-design-for-a-world-class-copper-project/",
+      "https://ausenco.com/assets/documents/revista-chilena-de-mineria-article-2022.pdf",
+      "https://www.industriaminera.cl/producto/ausenco-chile-ltda-services/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Mantoverde — desarrollo concentradora de cobre (~30.000 t/d) con planta desaladora y tranque de relaves, bajo contrato lump-sum turnkey/EPC",
+      "cliente": "Capstone Copper (ex Mantos Copper)",
+      "ubicacion": "Región de Atacama, Chile",
+      "monto": "Inversión total del proyecto estimada en más de US$846 millones (monto del contrato de Ausenco no divulgado)",
+      "fuente": "https://ausenco.com/projects/mantoverde-capital-efficient-design-for-a-world-class-copper-project/"
+    },
+    {
+      "proyecto": "Quebrada Blanca Fase 2 (QB2) — ingeniería de detalle, pipelines (agua desalada y concentrado), instalaciones portuarias, transporte de relaves y comisionamiento",
+      "cliente": "Teck Resources (Compañía Minera Teck Quebrada Blanca S.A.)",
+      "ubicacion": "Región de Tarapacá, Chile",
+      "monto": "no verificado (monto adjudicado a Ausenco no divulgado)",
+      "fuente": "https://ausenco.com/projects/quebrada-blanca-ii-enabling-the-first-high-altitude-desalinated-seawater-drive-in-a-mining-operation/"
+    },
+    {
+      "proyecto": "Spence Growth Option (SGO) — comisionamiento de la nueva planta concentradora de cobre",
+      "cliente": "Minera Spence (grupo BHP)",
+      "ubicacion": "Sierra Gorda, Región de Antofagasta, Chile",
+      "monto": "no verificado (proyecto completo ~US$2.460 millones, monto de Ausenco no divulgado)",
+      "fuente": "https://www.bhp.com/news/articles/2022/05/bhp-inaugurates-a-new-copper-concentrator-in-spence"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Kyle Crompton",
+      "cargo": "Gerente General, Ausenco Chile Limitada",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://chilepymes.com/info/ausenco-chile-limitada-651D779A6D15F028"
+    },
+    {
+      "nombre": "Marcelo Henríquez",
+      "cargo": "Vice President Minerals & Metals, Chile (Project Delivery)",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/marcelo-henriquez-95425829",
+      "fuente": "https://ausenco.com/our-people/marcelo-henriquez/"
+    },
+    {
+      "nombre": "Antonio Iruretagoyena",
+      "cargo": "Engineering Director, Ausenco Chile",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/antonio-iruretagoyena-84724369",
+      "fuente": "https://ausenco.com/our-people/antonio-iruretagoyena/"
+    },
+    {
+      "nombre": "Juan Pablo Polanco Lazo",
+      "cargo": "Director de Propuestas (Proposals Director), Sudamérica",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/jp-polanco-lazo",
+      "fuente": "https://cl.linkedin.com/in/jp-polanco-lazo"
+    },
+    {
+      "nombre": "Patricio Muñoz",
+      "cargo": "Vice President Comisionamiento (Commissioning), Sudamérica",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/patricio-munoz-11306638",
+      "fuente": "https://ausenco.com/our-people/patricio-munoz/"
+    },
+    {
+      "nombre": "Jorge Martínez",
+      "cargo": "Responsable Global de Pipelines (Global Pipelines Lead), basado en Santiago",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://ausenco.com/our-people/jorge-martinez/"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Av. Las Condes 11283, Piso 6, Las Condes, Santiago, Región Metropolitana, Chile (CP 7590992)",
+    "telefono": "+56 2 2937 0000 (fax +56 2 2937 0500)",
+    "correo": "ausencochile@ausenco.com",
+    "web": "https://ausenco.com",
+    "fuente": "https://ausenco.com/contact-us/our-offices/?region=south-america"
+  }
+}
