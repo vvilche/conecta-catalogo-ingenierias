@@ -1,0 +1,103 @@
+{
+  "empresa": "Tetra Tech Sudamérica S.A. (Metálica Consultores)",
+  "slug": "tetra_tech",
+  "rubro": "Consultora de ingeniería minera, recursos hídricos y medio ambiente (perfil, prefactibilidad, factibilidad, planificación minera)",
+  "clasificacion": "SOCIO/CANAL",
+  "justificacion_angulo": "Consultora que especifica disciplinas de ingeniería (incl. instrumentación y control) en estudios conceptuales/básicos para la gran minería, pero no ejecuta el suministro ni montaje de SCADA/DCS/protecciones IEC 61850 — socio para especificar y canal para que CONECTA ejecute en fases de detalle",
+  "quien_es": {
+    "descripcion": "Consultora chilena de ingeniería minera fundada como Metálica Consultores S.A. (febrero 1991) y adquirida por Tetra Tech Inc. (NASDAQ: TTEK) en 2011, operando en Chile como Tetra Tech Sudamérica S.A. con la marca Metálica. Especialista en geociencias, planificación minera (cielo abierto y subterránea), diseño de minas, estudios de perfil/prefactibilidad/factibilidad, procesos extractivos y metalúrgicos, estimaciones CAPEX/OPEX, recursos y reservas (QP, NI 43-101, JORC, CRIRSCO), infraestructura minera y estudios ambientales/hídricos. Trabaja en Chile, Perú y Argentina.",
+    "fundada": "1991 (como Metálica Consultores); adquirida por Tetra Tech Inc. en 2011",
+    "dotacion": "~62 empleados (Chile); Tetra Tech global ~25.000 empleados en más de 125 países",
+    "facturacion": "no verificado (tramo máximo de ventas SII según directorio)",
+    "matriz_grupo": "Tetra Tech, Inc. (NASDAQ: TTEK), EE.UU. — Inversiones Tetra Tech Chile Acquisition Limitada (99,9%) y Holding Limitada (0,1%)",
+    "rut": "96.602.240-K",
+    "sede": "Evaristo Lillo 78, Piso 5, Las Condes, Santiago, Chile",
+    "fuentes": [
+      "https://www.tetratech.com/regions/south-america/",
+      "https://www.df.cl/noticias/site/docs/20230119/20230119135634/suplemento_20230120.pdf",
+      "https://www.portalchile.org/empresa/tetra-tech-sudamerica-sa-96602240",
+      "https://www.portalchile.org/diario-oficial/2020/09/09/tetra-tech-chile-s-a-96-602-240-k-1813358",
+      "https://metalicaconsultores.com/",
+      "https://www.tetratech.com.br/wp-content/uploads/2024/09/Institucional_ESP.pdf"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Estudios de perfil, prefactibilidad y factibilidad minera",
+      "Planificación minera estratégica y de largo plazo",
+      "Diseño de minas (cielo abierto y subterránea)",
+      "Geociencias, modelamiento geológico, recursos y reservas (NI 43-101, JORC, CRIRSCO)",
+      "Procesos extractivos y metalúrgicos (concentración, lixiviación)",
+      "Estimaciones CAPEX/OPEX y due diligence",
+      "Recursos hídricos, hidrogeología, drenaje de minas y remediación ambiental",
+      "Ingeniería de infraestructura minera y estudios ambientales"
+    ],
+    "rol_cadena": "Consultora de ingeniería en fases tempranas (perfil/conceptual/básica/factibilidad). No es EPC ni montajista: define especificaciones técnicas de las especialidades (incluidas instrumentación y control) dentro de los estudios, pero no ejecuta la implementación ni el montaje físico de los sistemas de control — ese espacio lo ocupa un integrador/montajista especializado (rol de CONECTA).",
+    "fuentes": [
+      "https://metalicaconsultores.com/",
+      "https://www.tetratech.com.br/wp-content/uploads/2024/09/Experiencia-en-Sudamerica.pdf",
+      "https://www.industriaminera.cl/producto/metalica-consultores-sa-contactometalicacl/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Más de 2.000 estudios y proyectos mineros en Chile (greenfield y brownfield) en fases de perfil, conceptual, básica y de detalle",
+      "cliente": "Codelco, BHP y otros grandes mineros (clientes declarados)",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.df.cl/noticias/site/docs/20230119/20230119135634/suplemento_20230120.pdf"
+    },
+    {
+      "proyecto": "Estudios de constructibilidad, perfil y planificación de minería subterránea",
+      "cliente": "Codelco / BHP",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.tetratech.com.br/wp-content/uploads/2024/09/Experiencia-en-Sudamerica.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Severino Modena Cristoforetti",
+      "cargo": "Gerente General y Director de Proyectos, Tetra Tech Sudamérica / Metálica Consultores",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://vvmm.cl/socio/severino-modena/",
+      "fuente": "https://vvmm.cl/socio/severino-modena/"
+    },
+    {
+      "nombre": "Raúl Contreras",
+      "cargo": "Gerente Comercial, Metálica Consultores / Tetra Tech Chile",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/contreras-raul-b6780170",
+      "fuente": "https://cl.linkedin.com/in/contreras-raul-b6780170"
+    },
+    {
+      "nombre": "David Modena",
+      "cargo": "Gerente de Desarrollo e Innovación (estrategia LATAM), Metálica Consultores",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/company/metalicaconsultores",
+      "fuente": "https://cl.linkedin.com/company/metalicaconsultores"
+    },
+    {
+      "nombre": "Rodrigo Díaz",
+      "cargo": "Gerente Técnico, Metálica Consultores",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/company/metalicaconsultores",
+      "fuente": "https://cl.linkedin.com/company/metalicaconsultores"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Evaristo Lillo 78, Piso 5, Las Condes, Santiago, Chile",
+    "telefono": "+56 2 2290 6900",
+    "correo": "contacto@metalicaconsultores.com",
+    "web": "https://www.tetratech.com (marca Chile: https://metalicaconsultores.com)",
+    "fuente": "https://metalicaconsultores.com/"
+  }
+}
