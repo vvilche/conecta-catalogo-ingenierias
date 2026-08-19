@@ -1,0 +1,116 @@
+{
+  "empresa": "Bechtel Chile Limitada",
+  "slug": "bechtel",
+  "rubro": "EPC/EPCM de megaproyectos de minería, energía e infraestructura",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "EPCM de megaproyectos mineros que subcontrata las especialidades de electricidad, instrumentación y control (SCADA/DCS/protecciones IEC 61850) — canal de gran volumen para que CONECTA se inserte como integrador/subcontratista",
+  "quien_es": {
+    "descripcion": "Filial chilena de Bechtel Corporation (EE.UU., fundada 1898), una de las mayores empresas de ingeniería, procura y construcción (EPC) del mundo. En Chile ejecuta EPCM/EPC de megaproyectos de minería (concentradoras, desalinizadoras, infraestructura portuaria) para Teck, Antofagasta Minerals y Codelco. Oficina en Santiago.",
+    "fundada": "1898 (matriz Bechtel Corporation, EE.UU.)",
+    "dotacion": "~50.000 empleados globales (Bechtel Corporation)",
+    "facturacion": "Ingresos globales 2024: USD 20.600 millones (Bechtel Corporation). Facturación de la filial chilena: no verificado",
+    "matriz_grupo": "Bechtel Corporation (Reston, Virginia, EE.UU.)",
+    "rut": "no verificado",
+    "sede": "Avenida Apoquindo 3885, Piso 16, Las Condes, Santiago, Chile (CP 7550177)",
+    "fuentes": [
+      "https://www.bechtel.com/projects/",
+      "https://www.bechtel.com/impact/financials/",
+      "https://www.bechtel.com/press-releases/brendan-bechtel-elected-chairman-of-bechtel-group-inc/",
+      "https://www.bechtel.com/contact/",
+      "https://www.canchamchile.cl/2024/02/14/bechtel-chile/"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería, procura y gestión de construcción (EPCM)",
+      "EPC de plantas concentradoras de cobre",
+      "Plantas desalinizadoras de agua de mar",
+      "Infraestructura de cañerías y portuaria",
+      "Energía renovable asociada a operaciones mineras",
+      "Gestión de proyectos (project management)"
+    ],
+    "rol_cadena": "EPC/EPCM integral de gran envergadura: lidera ingeniería y procura y gestiona la construcción, subcontratando especialidades locales de electricidad, instrumentación y control a integradores/montajistas. No es fabricante ni integrador de sistemas de control — espacio donde CONECTA puede ser subcontratista de la especialidad.",
+    "fuentes": [
+      "https://www.bechtel.com/press-releases/bechtel-to-expand-tecks-quebrada-blanca-copper-mine-in-chile/",
+      "https://www.bechtel.com/projects/quebrada-blanca-phase-2/",
+      "https://www.bechtel.com/projects/los-pelambres-copper-mine/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Quebrada Blanca Fase 2 (QB2) — EPCM concentradora de cobre ~143.000 tpd, planta desalinizadora, cañería de agua e infraestructura portuaria",
+      "cliente": "Compañía Minera Teck Quebrada Blanca S.A. (Teck 60%, Sumitomo Metal Mining & Sumitomo Corporation 30%, ENAMI 10%)",
+      "ubicacion": "Región de Tarapacá, Chile",
+      "monto": "no verificado (monto del contrato EPC/EPCM de Bechtel no público)",
+      "fuente": "https://www.bechtel.com/press-releases/bechtel-to-expand-tecks-quebrada-blanca-copper-mine-in-chile/"
+    },
+    {
+      "proyecto": "Los Pelambres INCO — expansión de planta concentradora, planta desalinizadora de agua de mar y cañería de agua desalinizada (EPC)",
+      "cliente": "Antofagasta Minerals (Minera Los Pelambres)",
+      "ubicacion": "Región de Coquimbo, Chile",
+      "monto": "US$ 2.200 millones (inversión total proyecto INCO/EVU)",
+      "fuente": "https://www.bechtel.com/projects/los-pelambres-copper-mine/"
+    },
+    {
+      "proyecto": "Nueva Andina PDA Fase 1 — EPCM planta concentradora y ampliación de capacidad",
+      "cliente": "Codelco, División Andina",
+      "ubicacion": "Región de Valparaíso, Chile",
+      "monto": "Contrato EPCM ~US$ 32 millones (administra ~US$ 200 millones de la primera fase)",
+      "fuente": "https://www.codelco.com/noticias/2007/codelco-contrata-a-bechtel-para-construir-concentradora-de-nueva-andina"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Luis Hernán González Durán",
+      "cargo": "Gerente General, Bechtel Chile Construcción Limitada (desde octubre 2021)",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/luis-hernán-gonzález-durán-68b00616",
+      "fuente": "https://cl.linkedin.com/in/luis-hernán-gonzález-durán-68b00616"
+    },
+    {
+      "nombre": "Víctor Chinetti",
+      "cargo": "Site Manager, Bechtel Mining & Metals (Site Manager Quebrada Blanca QB2 2022-2024)",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/víctor-chinetti-4a25b8127",
+      "fuente": "https://cl.linkedin.com/in/víctor-chinetti-4a25b8127"
+    },
+    {
+      "nombre": "Dave Díaz Delaigue",
+      "cargo": "Gerente de Contratos — Proyecto Quebrada Blanca 2 (Teck)",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/dave-diaz-delaigue-10785341",
+      "fuente": "https://cl.linkedin.com/in/dave-diaz-delaigue-10785341"
+    },
+    {
+      "nombre": "Felix Palavicini",
+      "cargo": "Gerente de Negocios (comercial, contratos y propuestas), Bechtel Chile",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/felix-palavicini-46a5a913a/es",
+      "fuente": "https://cl.linkedin.com/in/felix-palavicini-46a5a913a/es"
+    },
+    {
+      "nombre": "Marco Díaz",
+      "cargo": "Gerente de Contratos, Bechtel (operaciones Sudamérica)",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/marco-díaz-31132b70",
+      "fuente": "https://cl.linkedin.com/in/marco-díaz-31132b70"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Avenida Apoquindo 3885, Piso 16, Las Condes, Santiago, Chile (CP 7550177)",
+    "telefono": "+56 2 2675 1000",
+    "correo": "webmas@bechtel.com",
+    "web": "https://www.bechtel.com",
+    "fuente": "https://www.bechtel.com/contact/"
+  }
+}

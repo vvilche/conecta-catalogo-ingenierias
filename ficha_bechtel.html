@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bechtel Chile Limitada — Canal/Socio CONECTA</title><style>
+  :root { --bg:#f8fafc; --ink:#071324; --accent:#2563eb; --accent-soft:#dbeafe;
+          --accent-softer:#eff6ff; --green:#059669; --green-soft:#d1fae5;
+          --amber:#d97706; --amber-soft:#fef3c7; --muted:#64748b; --border:#e2e8f0;
+          --radius-lg:20px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--ink);
+         line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1120px; margin:0 auto; padding:40px 24px 80px; }
+  .kicker { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.12em;
+            text-transform:uppercase; color:var(--accent); background:var(--accent-softer);
+            padding:6px 14px; border-radius:100px; }
+  h1 { font-size:32px; font-weight:700; margin-top:14px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:15px; margin-top:6px; max-width:720px; }
+  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
+          color:var(--accent); text-decoration:none; margin-bottom:22px; }
+  .legend { display:flex; gap:10px; margin:24px 0 8px; flex-wrap:wrap; }
+  .legend span { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500;
+                 color:var(--muted); background:#fff; border:1px solid var(--border);
+                 padding:8px 14px; border-radius:100px; }
+  .dot { width:10px; height:10px; border-radius:50%; }
+  .dot.c { background:var(--green); } .dot.s { background:var(--accent); } .dot.comp { background:var(--amber); }
+  .section-title { font-size:19px; font-weight:700; margin:30px 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }
+  .card { background:#fff; border:1px solid var(--border); border-radius:var(--radius-lg);
+          padding:20px; box-shadow:0 1px 2px rgba(7,19,36,.04); }
+  a.card.ficha-link { text-decoration:none; color:inherit; display:flex; flex-direction:column;
+          transition:box-shadow .15s ease, transform .15s ease; }
+  a.card.ficha-link:hover { box-shadow:0 8px 24px rgba(7,19,36,.08); transform:translateY(-2px); }
+  .card-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:4px; }
+  .card h3 { font-size:17px; font-weight:700; }
+  .badge { font-size:11px; font-weight:700; letter-spacing:.04em; padding:3px 10px;
+           border-radius:100px; white-space:nowrap; }
+  .region { font-size:12.5px; color:var(--muted); margin-bottom:10px; }
+  .meta { font-size:13px; margin-bottom:8px; } .meta div { margin-bottom:3px; } .meta b { color:var(--ink); }
+  .ing { font-size:12.5px; color:var(--accent); font-weight:600; }
+
+  .section { margin-top:30px; }
+  .section h2 { font-size:19px; font-weight:700; margin-bottom:12px; padding-bottom:8px;
+                border-bottom:2px solid var(--accent-soft); }
+  .kv { font-size:13.5px; } .kv div { margin-bottom:4px; } .kv b { color:var(--ink); }
+  .serv { margin:0 0 8px 18px; font-size:13.5px; } .serv li { margin-bottom:3px; }
+  .rolc { font-size:13.5px; color:var(--muted); }
+  .fuente { font-size:11.5px; color:var(--muted); margin-top:8px; padding-left:14px; }
+  .fuente a { color:var(--accent); text-decoration:none; word-break:break-all; }
+  .fuente a:hover { text-decoration:underline; }
+  .fuente::before { content:"\2192 "; color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; background:#fff;
+          border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border); }
+  th { background:var(--accent-softer); color:var(--ink); font-weight:700; text-align:left;
+       padding:10px 12px; font-size:12px; }
+  td { padding:10px 12px; border-top:1px solid var(--border); vertical-align:top; }
+  td.src { font-size:11px; color:var(--muted); min-width:140px; }
+  td.src .fuente { margin-top:0; padding-left:0; }
+  .contacto { display:flex; align-items:center; justify-content:space-between; gap:10px;
+              margin-bottom:6px; font-size:13.5px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+  .contacto:last-of-type { border-bottom:none; }
+  .contacto .nombre { font-weight:700; }
+  .rol { font-size:12px; color:var(--muted); }
+  .contacto .cta { display:flex; gap:6px; flex-shrink:0; flex-wrap:wrap; }
+  .chip { font-size:11px; font-weight:600; padding:4px 10px; border-radius:100px; text-decoration:none;
+          background:var(--accent-softer); color:var(--accent); white-space:nowrap; }
+  .chip:hover { background:var(--accent-soft); }
+  .chip.mail { background:var(--green-soft); color:var(--green); }
+  .tag { display:inline-block; font-size:11px; font-weight:700; padding:3px 10px; border-radius:100px; }
+  .tag-verde { background:var(--green-soft); color:var(--green); }
+  .tag-amb { background:var(--amber-soft); color:var(--amber); }
+  .tag-azul { background:var(--accent-softer); color:var(--accent); }
+  .tag-gris { background:#e2e8f0; color:#475569; }
+  .oportunidad { border-left:4px solid var(--amber); }
+  .oportunidad p { font-size:13.5px; color:var(--muted); margin-top:6px; }
+  footer { margin-top:40px; color:var(--muted); font-size:12px; text-align:center; }
+  .warn { background:var(--amber-soft); border:1px solid var(--amber); color:var(--amber);
+          border-radius:12px; padding:10px 14px; font-size:12.5px; margin-top:14px; }
+</style></head>
+<body><div class="wrap">
+<a class="back" href="index.html">← Volver al catálogo</a>
+<header><span class="kicker">Canal / Socio · Ingeniería industrial</span>
+<h1>Bechtel Chile Limitada</h1>
+<p class="sub">EPC/EPCM de megaproyectos de minería, energía e infraestructura</p></header>
+<div class="section"><h2>1 · Quién es</h2><div class="card"><div class="kv"><div>Filial chilena de Bechtel Corporation (EE.UU., fundada 1898), una de las mayores empresas de ingeniería, procura y construcción (EPC) del mundo. En Chile ejecuta EPCM/EPC de megaproyectos de minería (concentradoras, desalinizadoras, infraestructura portuaria) para Teck, Antofagasta Minerals y Codelco. Oficina en Santiago.</div><div><b>Fundada:</b> 1898 (matriz Bechtel Corporation, EE.UU.)</div><div><b>Dotación:</b> ~50.000 empleados globales (Bechtel Corporation)</div><div><b>Facturación:</b> Ingresos globales 2024: USD 20.600 millones (Bechtel Corporation). Facturación de la filial chilena: no verificado</div><div><b>Matriz / grupo:</b> Bechtel Corporation (Reston, Virginia, EE.UU.)</div><div><b>Sede:</b> Avenida Apoquindo 3885, Piso 16, Las Condes, Santiago, Chile (CP 7550177)</div></div><div class="fuente"><a href="https://www.bechtel.com/projects/" target="_blank" rel="noopener">www.bechtel.com/projects</a> · <a href="https://www.bechtel.com/impact/financials/" target="_blank" rel="noopener">www.bechtel.com/impact/financials</a> · <a href="https://www.bechtel.com/press-releases/brendan-bechtel-elected-chairman-of-bechtel-group-inc/" target="_blank" rel="noopener">www.bechtel.com/press-releases/brendan-bechtel-elected-ch…</a> · <a href="https://www.bechtel.com/contact/" target="_blank" rel="noopener">www.bechtel.com/contact</a> · <a href="https://www.canchamchile.cl/2024/02/14/bechtel-chile/" target="_blank" rel="noopener">www.canchamchile.cl/2024/02/14/bechtel-chile</a></div></div></div><div class="section"><h2>2 · Qué hace</h2><div class="card"><ul class="serv"><li>Ingeniería, procura y gestión de construcción (EPCM)</li><li>EPC de plantas concentradoras de cobre</li><li>Plantas desalinizadoras de agua de mar</li><li>Infraestructura de cañerías y portuaria</li><li>Energía renovable asociada a operaciones mineras</li><li>Gestión de proyectos (project management)</li></ul><p class="rolc">EPC/EPCM integral de gran envergadura: lidera ingeniería y procura y gestiona la construcción, subcontratando especialidades locales de electricidad, instrumentación y control a integradores/montajistas. No es fabricante ni integrador de sistemas de control — espacio donde CONECTA puede ser subcontratista de la especialidad.</p><div class="fuente"><a href="https://www.bechtel.com/press-releases/bechtel-to-expand-tecks-quebrada-blanca-copper-mine-in-chile/" target="_blank" rel="noopener">www.bechtel.com/press-releases/bechtel-to-expand-tecks-qu…</a> · <a href="https://www.bechtel.com/projects/quebrada-blanca-phase-2/" target="_blank" rel="noopener">www.bechtel.com/projects/quebrada-blanca-phase-2</a> · <a href="https://www.bechtel.com/projects/los-pelambres-copper-mine/" target="_blank" rel="noopener">www.bechtel.com/projects/los-pelambres-copper-mine</a></div></div></div><div class="section"><h2>3 · Proyectos / clientes</h2><table><tr><th>Proyecto</th><th>Cliente</th><th>Ubicación</th><th>Monto</th><th>Fuente</th></tr><tr><td><b>Quebrada Blanca Fase 2 (QB2) — EPCM concentradora de cobre ~143.000 tpd, planta desalinizadora, cañería de agua e infraestructura portuaria</b></td><td>Compañía Minera Teck Quebrada Blanca S.A. (Teck 60%, Sumitomo Metal Mining &amp; Sumitomo Corporation 30%, ENAMI 10%)</td><td>Región de Tarapacá, Chile</td><td>no verificado (monto del contrato EPC/EPCM de Bechtel no público)</td><td class="src"><div class="fuente"><a href="https://www.bechtel.com/press-releases/bechtel-to-expand-tecks-quebrada-blanca-copper-mine-in-chile/" target="_blank" rel="noopener">www.bechtel.com/press-releases/bechtel-to-expand-tecks-qu…</a></div></td></tr><tr><td><b>Los Pelambres INCO — expansión de planta concentradora, planta desalinizadora de agua de mar y cañería de agua desalinizada (EPC)</b></td><td>Antofagasta Minerals (Minera Los Pelambres)</td><td>Región de Coquimbo, Chile</td><td>US$ 2.200 millones (inversión total proyecto INCO/EVU)</td><td class="src"><div class="fuente"><a href="https://www.bechtel.com/projects/los-pelambres-copper-mine/" target="_blank" rel="noopener">www.bechtel.com/projects/los-pelambres-copper-mine</a></div></td></tr><tr><td><b>Nueva Andina PDA Fase 1 — EPCM planta concentradora y ampliación de capacidad</b></td><td>Codelco, División Andina</td><td>Región de Valparaíso, Chile</td><td>Contrato EPCM ~US$ 32 millones (administra ~US$ 200 millones de la primera fase)</td><td class="src"><div class="fuente"><a href="https://www.codelco.com/noticias/2007/codelco-contrata-a-bechtel-para-construir-concentradora-de-nueva-andina" target="_blank" rel="noopener">www.codelco.com/noticias/2007/codelco-contrata-a-bechtel-…</a></div></td></tr></table></div><div class="section"><h2>4 · Tomadores de decisión</h2><div class="card"><div class="contacto"><div><span class="nombre">Luis Hernán González Durán</span><div class="rol">Gerente General, Bechtel Chile Construcción Limitada (desde octubre 2021)</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/luis-hernán-gonzález-durán-68b00616" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/luis-hernán-gonzález-durán-68b00616" target="_blank" rel="noopener">cl.linkedin.com/in/luis-hernán-gonzález-durán-68b00616</a></div><div class="contacto"><div><span class="nombre">Víctor Chinetti</span><div class="rol">Site Manager, Bechtel Mining &amp; Metals (Site Manager Quebrada Blanca QB2 2022-2024)</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/víctor-chinetti-4a25b8127" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/víctor-chinetti-4a25b8127" target="_blank" rel="noopener">cl.linkedin.com/in/víctor-chinetti-4a25b8127</a></div><div class="contacto"><div><span class="nombre">Dave Díaz Delaigue</span><div class="rol">Gerente de Contratos — Proyecto Quebrada Blanca 2 (Teck)</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/dave-diaz-delaigue-10785341" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/dave-diaz-delaigue-10785341" target="_blank" rel="noopener">cl.linkedin.com/in/dave-diaz-delaigue-10785341</a></div><div class="contacto"><div><span class="nombre">Felix Palavicini</span><div class="rol">Gerente de Negocios (comercial, contratos y propuestas), Bechtel Chile</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/felix-palavicini-46a5a913a/es" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/felix-palavicini-46a5a913a/es" target="_blank" rel="noopener">cl.linkedin.com/in/felix-palavicini-46a5a913a/es</a></div><div class="contacto"><div><span class="nombre">Marco Díaz</span><div class="rol">Gerente de Contratos, Bechtel (operaciones Sudamérica)</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/marco-díaz-31132b70" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/marco-díaz-31132b70" target="_blank" rel="noopener">cl.linkedin.com/in/marco-díaz-31132b70</a></div></div></div><div class="section"><h2>5 · Contacto corporativo</h2><div class="card"><div class="kv"><div><b>Dirección:</b> Avenida Apoquindo 3885, Piso 16, Las Condes, Santiago, Chile (CP 7550177)</div><div><b>Teléfono:</b> +56 2 2675 1000</div><div><b>Correo:</b> webmas@bechtel.com</div><div><b>Web:</b> https://www.bechtel.com</div></div><div class="fuente"><a href="https://www.bechtel.com/contact/" target="_blank" rel="noopener">www.bechtel.com/contact</a></div></div></div><div class="section"><h2>6 · Ángulo CONECTA</h2><div class="card oportunidad"><h3>Ángulo CONECTA <span class="tag tag-verde">CANAL</span></h3>
+      <p>EPCM de megaproyectos mineros que subcontrata las especialidades de electricidad, instrumentación y control (SCADA/DCS/protecciones IEC 61850) — canal de gran volumen para que CONECTA se inserte como integrador/subcontratista</p></div></div>
+<footer>CONECTA Ingeniería · Catálogo de ingenierías · agosto 2026 · Cada dato cita su fuente verificable</footer>
+</div></body></html>
