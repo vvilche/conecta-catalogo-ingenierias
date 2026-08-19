@@ -1,0 +1,54 @@
+{
+  "empresa": "Reich JRI Ingeniería (REICH Ingeniería SpA)",
+  "slug": "reich",
+  "rubro": "Ingeniería eléctrica de potencia para minería y energía (líneas de transmisión, subestaciones, control y protecciones)",
+  "clasificacion": "COMPETIDOR",
+  "justificacion_angulo": "Solapamiento directo en ingeniería de control, protecciones y subestaciones (dominio IEC 61850); puede ser competidor en especificación de protecciones o socio en EPCM eléctrico donde CONECTA integra.",
+  "quien_es": {
+    "descripcion": "Empresa chilena de ingeniería eléctrica con más de 37 años de trayectoria, dedicada a soluciones de energía para la minería. En septiembre de 2022 el Grupo JRI adquirió el 70% de su propiedad, pasando a operar como Reich JRI Ingeniería. Diseña líneas de transmisión (23 kV a 500 kV, hasta >5.000 msnm), subestaciones hasta 500 kV, control, protecciones, comunicaciones y estudios eléctricos/de regulación.",
+    "fundada": "no verificado (más de 37 años de trayectoria según sitio oficial)",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Grupo JRI (JRI Ingeniería adquirió el 70% en sept. 2022)",
+    "rut": "",
+    "sede": "Fidel Oteíza 1953, Of. 102, Providencia, Santiago",
+    "fuentes": ["https://www.reichingenieria.cl/nosotros/", "https://www.jri.cl/blog/2022/09/28/jri-adquiere-el-70-de-la-propiedad-reich-ingenieria/"]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería eléctrica de líneas de transmisión (23 kV a 500 kV)",
+      "Diseño de subestaciones hasta 500 kV (mallas de tierra, salas eléctricas, switchgear, CCM, tableros)",
+      "Ingeniería de control, protecciones y comunicaciones; automatización",
+      "Estudios eléctricos y de regulación (conexión al SEN, estudios sistémicos)",
+      "Ingeniería civil estructural de líneas y subestaciones",
+      "Inspección técnica de obras, supervisión de montaje y puesta en marcha"
+    ],
+    "rol_cadena": "Ingeniería eléctrica de consulta (conceptual/básica/detalle/estudios) + inspección técnica de obras; no es montajista ni integrador EPC. Diseña y especifica control, protecciones y comunicaciones de subestaciones y líneas.",
+    "fuentes": ["https://www.reichingenieria.cl/proyectos-de-ingenieria/", "https://www.reichingenieria.cl/"]
+  },
+  "proyectos": [
+    {"proyecto": "Obras de adecuación de subestación 220/23 kV (segundo transformador, criterio N-1) para minera en zona norte", "cliente": "minera zona norte (no identificada públicamente)", "ubicacion": "Zona norte de Chile", "monto": "no verificado", "fuente": "https://www.reichingenieria.cl/reich-realiza-obras-de-adecuacion-de-una-subestacion-para-minera-en-la-zona-norte-del-pais/"},
+    {"proyecto": "Ingeniería de licitación Subestación Seccionadora Nueva La Negra 220/110 kV", "cliente": "Coordinador Eléctrico (evaluación técnica)", "ubicacion": "Antofagasta", "monto": "no verificado", "fuente": "https://www.reichingenieria.cl/noticias/page/9/"},
+    {"proyecto": "Ingeniería de detalle subestación elevadora y línea de evacuación — Planta Fotovoltaica Almeyda 62 MWp", "cliente": "Eiffage / Sarpel", "ubicacion": "Chile", "monto": "no verificado", "fuente": "https://www.reichingenieria.cl/noticias/page/9/"},
+    {"proyecto": "Verificación en terreno de infraestructura eléctrica — proyecto MSD (Mantos de la Luna?)", "cliente": "Capstone Copper", "ubicacion": "Chile", "monto": "no verificado", "fuente": "https://cl.linkedin.com/company/reich-ingenieria"}
+  ],
+  "tomadores": [
+    {"nombre": "Cristian Gamonal", "cargo": "Líder Control y Protección", "tipo": "jefe_ic", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Glenys Muñoz", "cargo": "Líder Subestaciones", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Julio Orrego", "cargo": "Líder Líneas de Transmisión", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Diego Sepúlveda", "cargo": "Gerente de Estudios", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Héctor Palacios", "cargo": "Gerente Energía para Minería", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Luis Villalobos", "cargo": "Jefe Área Comercial", "tipo": "jefe_propuestas", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Manuel Carrasco", "cargo": "Jefe de Proyecto", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "César Sobarzo", "cargo": "Jefe de Proyecto", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Federico Reich", "cargo": "Fundador / Consultor Senior", "tipo": "gerente_general", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"},
+    {"nombre": "Zullys Aquino", "cargo": "Gerente General", "tipo": "gerente_general", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.reichingenieria.cl/nosotros/"}
+  ],
+  "contacto_corporativo": {
+    "direccion": "Fidel Oteíza 1953, Of. 102, Providencia, Santiago",
+    "telefono": "+56 9 5006 0265",
+    "correo": "reichcomercial@reichjri.cl",
+    "web": "https://www.reichingenieria.cl",
+    "fuente": "https://reichingenieria.cl/contacto/"
+  }
+}
