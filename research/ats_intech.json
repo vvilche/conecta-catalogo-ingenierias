@@ -1,0 +1,41 @@
+{
+  "empresa": "ATS-Intech (Felipe Bahamondes S.A.)",
+  "slug": "ats_intech",
+  "rubro": "Suministro de instrumentación industrial, sensores, componentes y soluciones de control, automatización y monitoreo de variables de proceso.",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Proveedor de instrumentación y componentes de control (marcas B&R, Traco Power, etc.) complementario a CONECTA; posible aliado de suministro, no competidor directo.",
+  "quien_es": {
+    "descripcion": "Empresa chilena proveedora de productos, componentes y soluciones de control, automatización y monitoreo de variables para la industria.",
+    "fundada": "inicio de actividades 01-ene-1993",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Sociedad propia (Felipe Bahamondes S.A.)",
+    "rut": "79.619.050-7",
+    "sede": "María Luisa Santander 0475, Providencia, Santiago",
+    "fuentes": [
+      "https://chilepymes.com/info/felipe-bahamondes-s-a-2902C457CAF68167",
+      "https://www.atsintech.com/nuestra-empresa/"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Instrumentación y sensores de proceso",
+      "Componentes y soluciones de control y automatización",
+      "Monitoreo de variables",
+      "Representación de marcas: Ambronics, B&R Automation, Traco Power, Proxxon, S+S Regeltechnik, Senseca, TinyTag, entre otras"
+    ],
+    "rol_cadena": "Proveedor/distribuidor de instrumentación y componentes de control/automatización. No integra SCADA/DCS de forma completa; es un canal de suministro complementario para integradores como CONECTA.",
+    "fuentes": [
+      "https://www.atsintech.com/nuestra-empresa/"
+    ]
+  },
+  "proyectos": [],
+  "tomadores": [],
+  "contacto_corporativo": {
+    "direccion": "María Luisa Santander 475, Providencia, Santiago",
+    "telefono": "+56 2 2234 1171 (ventas) · +56 9 7667 7722 (técnicos)",
+    "correo": "ventas@atsintech.com · jorge@atsintech.com (técnicos)",
+    "web": "https://www.atsintech.com",
+    "fuente": "https://www.atsintech.com/contacto/"
+  }
+}
