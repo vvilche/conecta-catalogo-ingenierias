@@ -1,0 +1,43 @@
+{
+  "empresa": "Montelco (Montajes Eléctricos y Construcciones Montelco Ltda.)",
+  "slug": "montelco",
+  "rubro": "Ingeniería eléctrica industrial, minera y residencial: montaje eléctrico, instrumentación y automatización (PLC, SCADA, telemetría), fotovoltaica.",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Montajista eléctrico e instrumentación con más de 25 años; complementa a CONECTA ejecutando la obra eléctrica/I&C donde CONECTA aporta SCADA, protecciones y DCS.",
+  "quien_es": {
+    "descripcion": "Empresa de ingeniería y montaje eléctrico para la industria, la minería y el sector residencial, con foco en montaje eléctrico, instrumentación y automatización.",
+    "fundada": "1994 (según sitio web); inicio de actividades legal registrado 21-jun-2005",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Sociedad propia (fundador Carlos Jopia)",
+    "rut": "76.286.110-0",
+    "sede": "Río de Janeiro 480, Recreo, Viña del Mar, Región de Valparaíso",
+    "fuentes": [
+      "https://montelco.cl",
+      "https://chilepymes.com/info/montajes-electricos-y-construcciones-montelco-limitada-C54A56EF1299B6EE"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería eléctrica industrial, minera y residencial",
+      "Montaje eléctrico",
+      "Instrumentación y automatización (PLC, SCADA, control de procesos, telemetría)",
+      "Energía fotovoltaica"
+    ],
+    "rol_cadena": "Montajista eléctrico con capacidad de instrumentación/automatización. No es EPC; ejecuta la obra eléctrica y de instrumentación, donde CONECTA puede aportar la especialidad de control (SCADA, protecciones IEC 61850, DCS SUPCON).",
+    "fuentes": [
+      "https://montelco.cl"
+    ]
+  },
+  "proyectos": [],
+  "tomadores": [
+    {"nombre": "Carlos Jopia", "cargo": "Fundador (socio)", "tipo": "gerente_general", "correo": "", "telefono": "+56 9 7155 0161", "linkedin": "", "fuente": "https://chilepymes.com/info/montajes-electricos-y-construcciones-montelco-limitada-C54A56EF1299B6EE"}
+  ],
+  "contacto_corporativo": {
+    "direccion": "Río de Janeiro 480, Recreo, Viña del Mar, Región de Valparaíso",
+    "telefono": "+56 9 7155 0161 (WhatsApp)",
+    "correo": "no verificado",
+    "web": "https://montelco.cl",
+    "fuente": "https://montelco.cl"
+  }
+}
