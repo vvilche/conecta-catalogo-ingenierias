@@ -1,0 +1,105 @@
+{
+  "empresa": "Wood Chile Limitada",
+  "slug": "wood",
+  "rubro": "Ingeniería, consultoría, EPCM e ingeniería del propietario (owner engineering) para minería, energía e industria",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "Consultora EPCM/ingeniería que especifica instrumentación y control (I&C) en ingeniería básica/detalle y subcontrata la especialidad eléctrica/control a integradores como CONECTA",
+  "quien_es": {
+    "descripcion": "Filial chilena de Wood plc (ex John Wood Group), consultora global de ingeniería, gerenciamiento de proyectos y servicios técnicos para minería, energía, industria, infraestructura, petróleo y gas. En Chile desarrolla ingeniería básica y de detalle, estudios de prefactibilidad/factibilidad, ingeniería del propietario (owner engineering), gerenciamiento de construcción y supervisión técnica, con foco en minería subterránea y rajo abierto, procesamiento de minerales, energía y transporte.",
+    "fundada": "no verificado (presencia de la división Process & Energy en Chile por 'casi seis décadas' según AIC)",
+    "dotacion": "no verificado (Wood plc opera en más de 60 países a nivel global)",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Wood plc (anteriormente John Wood Group PLC), Reino Unido",
+    "rut": "76.938.030-2",
+    "sede": "Avenida Presidente Riesco 5335, Piso 8, Las Condes, Santiago, Región Metropolitana, Chile (CP 7561127)",
+    "fuentes": [
+      "https://red-conecta.com/empresa/12532/wood-chile-ltda",
+      "https://www.portalchile.org/diario-oficial/2026/01/12/wood-chile-limitada-76-938-030-2-2754111",
+      "https://www.direcmin.com/wood/ejecutivos",
+      "https://www.aic.cl/2010/05/26/wood/",
+      "https://projects.gbreports.com/chile-mining-2025/wood-interview"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería básica y de detalle",
+      "Estudios de prefactibilidad y factibilidad",
+      "Ingeniería del propietario (owner engineering)",
+      "Gerenciamiento de construcción (EPCM/PMC)",
+      "Diseño de minería subterránea y rajo abierto",
+      "Servicios técnicos de supervisión y estudios de tecnología de procesamiento de minerales"
+    ],
+    "rol_cadena": "Consultora EPCM e ingeniería: especifica las disciplinas (incluida instrumentación y control) en la ingeniería de detalle y gerenciamiento, pero no ejecuta montaje eléctrico/control con personal propio; subcontrata la especialidad de control/eléctrica a integradores. Es el perfil clásico de canal que le compra o le asocia la capa de control a CONECTA.",
+    "fuentes": [
+      "https://projects.gbreports.com/chile-mining-2025/wood-interview",
+      "https://www.codelco.com/ce-002-ingenieria-de-detalles-prtox-integracion",
+      "https://www.aic.cl/2010/05/26/wood/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "CE-002 Ingeniería de Detalles PRTOX-Integración (contrato de ingeniería de detalles)",
+      "cliente": "Codelco",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.codelco.com/ce-002-ingenieria-de-detalles-prtox-integracion"
+    },
+    {
+      "proyecto": "Ingeniería de perfil / prefactibilidad de la planta de filtros DET (mejora integral planta filtros)",
+      "cliente": "Codelco — División El Teniente",
+      "ubicacion": "Región de O'Higgins, Chile",
+      "monto": "no verificado",
+      "fuente": "https://es.scribd.com/document/867549050/T25C217-03360-ADDMD-00001-Rev-P"
+    },
+    {
+      "proyecto": "Diseño detallado de minería subterránea para Chuquicamata Subterránea y otros proyectos estructurales",
+      "cliente": "Codelco",
+      "ubicacion": "Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://projects.gbreports.com/chile-mining-2025/wood-interview"
+    },
+    {
+      "proyecto": "Nueva Centinela — fase de ejecución de ingeniería desde mayo 2024 (ramp-up agosto 2025)",
+      "cliente": "Antofagasta Minerals",
+      "ubicacion": "Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://projects.gbreports.com/chile-mining-2025/wood-interview"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "William Lilis",
+      "cargo": "Director of Operations — Minerals & Metals, South America (desde dic. 2024)",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/william-lilis-aa36808",
+      "fuente": "https://cl.linkedin.com/in/william-lilis-aa36808"
+    },
+    {
+      "nombre": "Ricardo Subiabre Aguilar",
+      "cargo": "Gerente de Construcción, Wood Chile (desde jun. 2023)",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/ricardo-subiabre-aguilar-95073a111",
+      "fuente": "https://cl.linkedin.com/in/ricardo-subiabre-aguilar-95073a111"
+    },
+    {
+      "nombre": "Rossana Dávila",
+      "cargo": "Procurement Manager (Compras Corporativas Chile y Perú), Wood",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/rossana-davila-5989b825",
+      "fuente": "https://cl.linkedin.com/in/rossana-davila-5989b825"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Avenida Presidente Riesco 5335, Piso 8, Las Condes, Santiago, Región Metropolitana, Chile (CP 7561127)",
+    "telefono": "+56 2 2957 7700",
+    "correo": "no verificado (no publicado; contactar vía sitio oficial woodplc.com)",
+    "web": "https://www.woodplc.com",
+    "fuente": "https://www.direcmin.com/wood/ejecutivos"
+  }
+}
