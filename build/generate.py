@@ -208,7 +208,7 @@ CSS = """
   .fuente { font-size:11.5px; color:var(--muted); margin-top:8px; padding-left:14px; }
   .fuente a { color:var(--accent); text-decoration:none; word-break:break-all; }
   .fuente a:hover { text-decoration:underline; }
-  .fuente::before { content:"\\2192 "; color:var(--accent); }
+  .fuente::before { content:"\21B3 "; color:var(--accent); }
   table { width:100%; border-collapse:collapse; font-size:12.5px; background:#fff;
           border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border); }
   th { background:var(--accent-softer); color:var(--ink); font-weight:700; text-align:left;
