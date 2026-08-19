@@ -1,0 +1,134 @@
+{
+  "empresa": "Besalco S.A. (Besalco Montajes)",
+  "slug": "besalco",
+  "rubro": "Construcción y montaje industrial, obras civiles, maquinaria, energía, inmobiliaria y concesiones",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "Montajista electromecánico que instala electricidad e instrumentación/control a nivel de obra, pero no es integrador de SCADA/DCS/protecciones IEC 61850 — canal natural de subcontratación para CONECTA",
+  "quien_es": {
+    "descripcion": "Grupo empresarial chileno de construcción (obras civiles, montajes industriales, desarrollos inmobiliarios, maquinaria, minería, energía y concesiones). Fundado en 1944 por Víctor Bezanilla Salinas. Sociedad anónima abierta desde 1995, controlada por la familia Bezanilla (~59%). Su brazo de montaje industrial es Besalco MD Montajes S.A. (constituida 2004), especializada en montajes electromecánicos para gran minería e industria.",
+    "fundada": "1944",
+    "dotacion": "~15.726 trabajadores (grupo Besalco, cierre 2025)",
+    "facturacion": "Ingresos 2025: CLP $1.097.141 millones; utilidad neta 2025: CLP $61.114 millones (grupo)",
+    "matriz_grupo": "Besalco S.A. (matriz, RUT 92.434.000-2), controlada por familia Bezanilla",
+    "rut": "92.434.000-2",
+    "sede": "Matriz: Ebro 2705, Las Condes, Santiago. Besalco Montajes: Tajamar 183, Oficina 101, Las Condes, Santiago",
+    "fuentes": [
+      "https://www.besalco.cl/nosotros/",
+      "https://besalcomaquinarias.cl/quienes-somos/",
+      "https://eldiarioinmobiliario.cl/noticias/besalco-logra-utilidades-record-en-2025-y-se-suma-a-los-brotes-verdes-del-sector/",
+      "https://www.besalcomontajes.cl/seccion/quienes-somos.html",
+      "https://www.cmfchile.cl/institucional/mercados/entidad.php?rut=92434000"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Obras civiles",
+      "Montaje estructural",
+      "Montaje mecánico",
+      "Instalación de cañerías",
+      "Electricidad",
+      "Instrumentación y Control",
+      "Maquinaria y apoyo a operación (Besalco Maquinarias)"
+    ],
+    "rol_cadena": "Montajista electromecánico (no EPC integral a nivel de diseño de proceso). Besalco Montajes declara servicios de Electricidad e Instrumentación y Control, pero a nivel de instalación/montaje en faena; la ingeniería de detalle y los sistemas de control (SCADA, DCS, relés de protección IEC 61850) los especifica/suministra el mandante o un integrador especializado. Certificada ISO 9001, ISO 14001 e ISO 45001 (DNV GL).",
+    "fuentes": [
+      "https://www.besalcomontajes.cl/equipo.html",
+      "https://www.besalcomontajes.cl/seccion/quienes-somos.html"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Reposición infraestructura mantenimiento Mina Rajo Cota 4000 (obra civil, estructural y electromecánica: bahías, sala eléctrica, subestación, oficinas/bodega/taller)",
+      "cliente": "Codelco, División Andina",
+      "ubicacion": "Mina Rajo cota 4000, Región de Valparaíso, Chile",
+      "monto": "no verificado",
+      "fuente": "https://besalcomontajes.cl/proyectos/reposicion-infraestructura-mantenimiento-mina-rajo-cota-4000.html"
+    },
+    {
+      "proyecto": "Contrato Electromecánico Planta Concentradora y de Espesado",
+      "cliente": "Minera Arqueros S.A.",
+      "ubicacion": "Planta concentradora y de espesado (Chile)",
+      "monto": "no verificado",
+      "fuente": "https://www.besalco.cl/wp-content/uploads/2025/04/BS_Memoria_integrada_030425.pdf"
+    },
+    {
+      "proyecto": "Ampliación Planta Desalinizadora",
+      "cliente": "Minera Los Pelambres",
+      "ubicacion": "Región de Coquimbo, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.besalco.cl/wp-content/uploads/2025/04/BS_Memoria_integrada_030425.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Enrique García López",
+      "cargo": "Gerente General, Besalco Montajes",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/enrique-manuel-garc%C3%ADa-l%C3%B3pez-97048373",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Rodrigo Araya Bannout",
+      "cargo": "Gerente de Operaciones, Besalco Montajes",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Esteban Azolas Arriagada",
+      "cargo": "Gerente de Estudios, Besalco Montajes",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Carlos Mercado Arce",
+      "cargo": "Gerente de Proyecto, Besalco Montajes",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Óscar Bustos Ramírez",
+      "cargo": "Gerente de Proyecto, Besalco Montajes",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Alejandro Rivera González",
+      "cargo": "Gerente de Abastecimiento y Logística, Besalco Montajes",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    },
+    {
+      "nombre": "Alejandro Hevia Norambuena",
+      "cargo": "Gerente Comercial, Besalco Montajes",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.besalcomontajes.cl/equipo.html"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Tajamar 183, Oficina 101, Las Condes, Santiago, Chile (Besalco Montajes). Matriz Besalco S.A.: Ebro 2705, Las Condes",
+    "telefono": "(56-2) 2384 7900 (Besalco Montajes) / (+56) 2 2338 0800 (matriz Besalco S.A.)",
+    "correo": "montajes@besalco.cl",
+    "web": "https://www.besalcomontajes.cl",
+    "fuente": "https://www.besalcomontajes.cl/equipo.html"
+  }
+}
