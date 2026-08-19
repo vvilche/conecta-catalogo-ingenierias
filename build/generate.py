@@ -35,7 +35,7 @@ def load_companies():
             continue
         if not d.get("empresa"):
             continue
-        d.setdefault("slug", slugify(d["empresa"]))
+        d["slug"] = slugify(d.get("slug") or d["empresa"])
         comps.append(d)
     # ordenar: CANAL primero, luego SOCIO, luego COMPETIDOR/CLIENTE
     order = {"CANAL": 0, "SOCIO": 1, "CLIENTE FINAL": 2, "COMPETIDOR": 3}

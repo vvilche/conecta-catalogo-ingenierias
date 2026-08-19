@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Ingenierías — Canal/Socio CONECTA</title><style>
+  :root { --bg:#f8fafc; --ink:#071324; --accent:#2563eb; --accent-soft:#dbeafe;
+          --accent-softer:#eff6ff; --green:#059669; --green-soft:#d1fae5;
+          --amber:#d97706; --amber-soft:#fef3c7; --muted:#64748b; --border:#e2e8f0;
+          --radius-lg:20px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--ink);
+         line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1120px; margin:0 auto; padding:40px 24px 80px; }
+  .kicker { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.12em;
+            text-transform:uppercase; color:var(--accent); background:var(--accent-softer);
+            padding:6px 14px; border-radius:100px; }
+  h1 { font-size:32px; font-weight:700; margin-top:14px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:15px; margin-top:6px; max-width:720px; }
+  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
+          color:var(--accent); text-decoration:none; margin-bottom:22px; }
+  .legend { display:flex; gap:10px; margin:24px 0 8px; flex-wrap:wrap; }
+  .legend span { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500;
+                 color:var(--muted); background:#fff; border:1px solid var(--border);
+                 padding:8px 14px; border-radius:100px; }
+  .dot { width:10px; height:10px; border-radius:50%; }
+  .dot.c { background:var(--green); } .dot.s { background:var(--accent); } .dot.comp { background:var(--amber); }
+  .section-title { font-size:19px; font-weight:700; margin:30px 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }
+  .card { background:#fff; border:1px solid var(--border); border-radius:var(--radius-lg);
+          padding:20px; box-shadow:0 1px 2px rgba(7,19,36,.04); }
+  a.card.ficha-link { text-decoration:none; color:inherit; display:flex; flex-direction:column;
+          transition:box-shadow .15s ease, transform .15s ease; }
+  a.card.ficha-link:hover { box-shadow:0 8px 24px rgba(7,19,36,.08); transform:translateY(-2px); }
+  .card-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:4px; }
+  .card h3 { font-size:17px; font-weight:700; }
+  .badge { font-size:11px; font-weight:700; letter-spacing:.04em; padding:3px 10px;
+           border-radius:100px; white-space:nowrap; }
+  .region { font-size:12.5px; color:var(--muted); margin-bottom:10px; }
+  .meta { font-size:13px; margin-bottom:8px; } .meta div { margin-bottom:3px; } .meta b { color:var(--ink); }
+  .ing { font-size:12.5px; color:var(--accent); font-weight:600; }
+
+  .section { margin-top:30px; }
+  .section h2 { font-size:19px; font-weight:700; margin-bottom:12px; padding-bottom:8px;
+                border-bottom:2px solid var(--accent-soft); }
+  .kv { font-size:13.5px; } .kv div { margin-bottom:4px; } .kv b { color:var(--ink); }
+  .serv { margin:0 0 8px 18px; font-size:13.5px; } .serv li { margin-bottom:3px; }
+  .rolc { font-size:13.5px; color:var(--muted); }
+  .fuente { font-size:11.5px; color:var(--muted); margin-top:8px; padding-left:14px; }
+  .fuente a { color:var(--accent); text-decoration:none; word-break:break-all; }
+  .fuente a:hover { text-decoration:underline; }
+  .fuente::before { content:"\2192 "; color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; background:#fff;
+          border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border); }
+  th { background:var(--accent-softer); color:var(--ink); font-weight:700; text-align:left;
+       padding:10px 12px; font-size:12px; }
+  td { padding:10px 12px; border-top:1px solid var(--border); vertical-align:top; }
+  td.src { font-size:11px; color:var(--muted); min-width:140px; }
+  td.src .fuente { margin-top:0; padding-left:0; }
+  .contacto { display:flex; align-items:center; justify-content:space-between; gap:10px;
+              margin-bottom:6px; font-size:13.5px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+  .contacto:last-of-type { border-bottom:none; }
+  .contacto .nombre { font-weight:700; }
+  .rol { font-size:12px; color:var(--muted); }
+  .contacto .cta { display:flex; gap:6px; flex-shrink:0; flex-wrap:wrap; }
+  .chip { font-size:11px; font-weight:600; padding:4px 10px; border-radius:100px; text-decoration:none;
+          background:var(--accent-softer); color:var(--accent); white-space:nowrap; }
+  .chip:hover { background:var(--accent-soft); }
+  .chip.mail { background:var(--green-soft); color:var(--green); }
+  .tag { display:inline-block; font-size:11px; font-weight:700; padding:3px 10px; border-radius:100px; }
+  .tag-verde { background:var(--green-soft); color:var(--green); }
+  .tag-amb { background:var(--amber-soft); color:var(--amber); }
+  .tag-azul { background:var(--accent-softer); color:var(--accent); }
+  .tag-gris { background:#e2e8f0; color:#475569; }
+  .oportunidad { border-left:4px solid var(--amber); }
+  .oportunidad p { font-size:13.5px; color:var(--muted); margin-top:6px; }
+  footer { margin-top:40px; color:var(--muted); font-size:12px; text-align:center; }
+  .warn { background:var(--amber-soft); border:1px solid var(--amber); color:var(--amber);
+          border-radius:12px; padding:10px 14px; font-size:12.5px; margin-top:14px; }
+</style></head>
+<body><div class="wrap">
+<header><span class="kicker">Inteligencia comercial · Ingeniería industrial</span>
+<h1>Catálogo de Ingenierías — Canal / Socio CONECTA</h1>
+<p class="sub">Empresas de ingeniería y construcción industrial en Chile tipo PUMA (EPC/EPCM, integradores de control, montajistas eléctricos/instrumentación). Cada ficha trae: quién es, qué hace, proyectos reales, tomadores de decisión técnicos y el ángulo CONECTA — todo con fuente verificable.</p></header>
+<div class="legend">
+<span><i class="dot c"></i>CANAL — subcontrata la especialidad eléctrica/control</span>
+<span><i class="dot s"></i>SOCIO — alianza técnica complementaria</span>
+<span><i class="dot comp"></i>COMPETIDOR — solapamiento a vigilar</span>
+</div>
+<div class="section-title">Empresas (19)</div>
+<div class="grid">
+    <a class="card ficha-link" href="ficha_ausenco.html">
+      <div class="card-head"><h3>Ausenco Chile Limitada</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">Ingeniería, consultoría, EPCM y comisionamiento para minería y metales (cobre, litio), energía, agua e infraestructura</div>
+      <div class="meta"><div><b>Dotación:</b> ~900 colaboradores en Chile (2022); más de 1.500 en Sudamérica; más de 3.000 a nivel global</div><div><b>Sede:</b> Av. Las Condes 11283, Piso 6, Las Condes, Santiago, Región Metropolitana, Chile (CP 7590992)</div></div>
+      <div class="ing">EPCM/consultora de minería que especifica y subcontrata la especialidad eléctrica/control (SCADA, protecciones IEC 61850, instrumentación, DCS) a integradores como CONECTA</div>
+    </a>
+    <a class="card ficha-link" href="ficha_bechtel.html">
+      <div class="card-head"><h3>Bechtel Chile Limitada</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">EPC/EPCM de megaproyectos de minería, energía e infraestructura</div>
+      <div class="meta"><div><b>Dotación:</b> ~50.000 empleados globales (Bechtel Corporation)</div><div><b>Sede:</b> Avenida Apoquindo 3885, Piso 16, Las Condes, Santiago, Chile (CP 7550177)</div></div>
+      <div class="ing">EPCM de megaproyectos mineros que subcontrata las especialidades de electricidad, instrumentación y control (SCADA/DCS/protecciones IEC 61850) — canal de gran volumen para que CONECTA se inserte como integrador/subcontratista</div>
+    </a>
+    <a class="card ficha-link" href="ficha_besalco.html">
+      <div class="card-head"><h3>Besalco S.A. (Besalco Montajes)</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">Construcción y montaje industrial, obras civiles, maquinaria, energía, inmobiliaria y concesiones</div>
+      <div class="meta"><div><b>Dotación:</b> ~15.726 trabajadores (grupo Besalco, cierre 2025)</div><div><b>Sede:</b> Matriz: Ebro 2705, Las Condes, Santiago. Besalco Montajes: Tajamar 183, Oficina 101, Las Condes, Santiago</div></div>
+      <div class="ing">Montajista electromecánico que instala electricidad e instrumentación/control a nivel de obra, pero no es integrador de SCADA/DCS/protecciones IEC 61850 — canal natural de subcontratación para CONECTA</div>
+    </a>
+    <a class="card ficha-link" href="ficha_fluor.html">
+      <div class="card-head"><h3>Fluor Chile Ingeniería y Construcción S.A.</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">EPCM de ingeniería, procura y gestión de construcción para minería y metales (cobre, oro, molibdeno) e industria</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado para Chile</div><div><b>Sede:</b> Reyes Lavalle 3340, Piso 7, Las Condes, Santiago, Región Metropolitana, Chile</div></div>
+      <div class="ing">EPCM global que gestiona procura y construcción de proyectos mineros y subcontrata la especialidad eléctrica/control (SCADA, instrumentación, protecciones) a integradores como CONECTA</div>
+    </a>
+    <a class="card ficha-link" href="ficha_sigdo_koppers.html">
+      <div class="card-head"><h3>Ingeniería y Construcción Sigdo Koppers S.A. (SKIC)</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">EPC/EPCM industrial: ingeniería, construcción y montaje electromecánico para minería, generación/transmisión de energía e infraestructura</div>
+      <div class="meta"><div><b>Dotación:</b> más de 15.000 colaboradores (peak anual, sitio oficial skic.com); ~4.600 colaboradores directos según sigdokoppers.cl (2024)</div><div><b>Sede:</b> Málaga 120, Las Condes, Santiago, Chile (CP 7550133)</div></div>
+      <div class="ing">EPC industrial que ejecuta obra gruesa, montaje y BOP eléctrico, pero subcontrata la especialidad de control (SCADA, protecciones IEC 61850, DCS, instrumentación) a integradores como CONECTA</div>
+    </a>
+    <a class="card ficha-link" href="ficha_wood.html">
+      <div class="card-head"><h3>Wood Chile Limitada</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">Ingeniería, consultoría, EPCM e ingeniería del propietario (owner engineering) para minería, energía e industria</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado (Wood plc opera en más de 60 países a nivel global)</div><div><b>Sede:</b> Avenida Presidente Riesco 5335, Piso 8, Las Condes, Santiago, Región Metropolitana, Chile (CP 7561127)</div></div>
+      <div class="ing">Consultora EPCM/ingeniería que especifica instrumentación y control (I&amp;C) en ingeniería básica/detalle y subcontrata la especialidad eléctrica/control a integradores como CONECTA</div>
+    </a>
+    <a class="card ficha-link" href="ficha_worley.html">
+      <div class="card-head"><h3>Worley Ingeniería y Construcción Chile SpA (ex Jacobs Engineering / WorleyParsons Chile)</h3><span class="badge tag-verde">CANAL</span></div>
+      <div class="region">EPCM e ingeniería de energía, minería y metales (cobre y litio)</div>
+      <div class="meta"><div><b>Dotación:</b> ~45.500 empleados globales (Worley, 2025); &gt;800 profesionales en la oficina de Santiago</div><div><b>Sede:</b> Av. Apoquindo 5400, Piso 11, Las Condes, Santiago, Chile</div></div>
+      <div class="ing">EPCM global con oficina en Chile que gestiona la ingeniería de detalle y el procurement pero subcontrata la especialidad de control e instrumentación (SCADA/DCS/relés IEC 61850) — canal para que CONECTA provea e integre esos sistemas</div>
+    </a>
+    <a class="card ficha-link" href="ficha_ats_intech.html">
+      <div class="card-head"><h3>ATS-Intech (Felipe Bahamondes S.A.)</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Suministro de instrumentación industrial, sensores, componentes y soluciones de control, automatización y monitoreo de variables de proceso.</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> María Luisa Santander 0475, Providencia, Santiago</div></div>
+      <div class="ing">Proveedor de instrumentación y componentes de control (marcas B&amp;R, Traco Power, etc.) complementario a CONECTA; posible aliado de suministro, no competidor directo.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_dts.html">
+      <div class="card-head"><h3>Desarrollo de Tecnologías y Sistemas SpA (DTS SpA)</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Integración de sistemas de control/automatización, electrónica, calibraciones y mantenimiento para defensa, aeroespacial e industria civil (filial ENAER).</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> Rodrigo de Araya 1263, Macul, Santiago, Región Metropolitana, Chile</div></div>
+      <div class="ing">Integra SCADA/PLC y control automático con división propia (solape parcial con CONECTA en esa especialidad), pero su foco dominante es defensa/aeroespacial (ENAER, FACh, Armada) y cuenta con laboratorio de calibración acreditado NCh-ISO/IEC 17025:2017 — canal y capacidades complementarias, no competidor directo en minería/industrial.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_fda.html">
+      <div class="card-head"><h3>FDA Ingenieros S.A.</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Consultora de ingeniería multidisciplinaria (minería, energía, infraestructura e industria) con foco en detalle de plantas mineras</div>
+      <div class="meta"><div><b>Dotación:</b> 200 trabajadores (según sitio oficial)</div><div><b>Sede:</b> Santa Magdalena 75, Of. 710, Providencia, Santiago</div></div>
+      <div class="ing">Especifica electricidad e instrumentación en ingeniería de detalle de plantas mineras pero no integra SCADA/control, por lo que puede derivar o subcontratar la especialidad I&amp;C a CONECTA.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_ava_montajes.html">
+      <div class="card-head"><h3>Ingeniería AVA Montajes Limitada</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Ingeniería, construcción y montaje industrial EPC para minería (público y privado), greenfield y brownfield.</div>
+      <div class="meta"><div><b>Dotación:</b> ~1.083 trabajadores (ChilePymes); media histórica ~1.600 (2005-2023)</div><div><b>Sede:</b> Autopista Concepción-Talcahuano 8696, Hualpén, Región del Biobío, Chile</div></div>
+      <div class="ing">Montajista/EPC minero de gran escala que ejecuta obra gruesa, estructuras, tuberías y electromecánico, y subcontrata la especialidad de instrumentación/control/SCADA; canal natural para CONECTA.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_ameci.html">
+      <div class="card-head"><h3>Ingeniería y Construcciones AMECI Limitada</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Ingeniería, construcción, montaje y mantenimiento industrial EPC con foco en gran minería.</div>
+      <div class="meta"><div><b>Dotación:</b> ~187 trabajadores (ChilePymes)</div><div><b>Sede:</b> Diego Echeverría 660, Quillota, Región de Valparaíso, Chile</div></div>
+      <div class="ing">EPC montajista minero que ejecuta obra eléctrica/control de instalación (ej. gabinetes DCS en Caletones) pero subcontrata la ingeniería de control especializada (SCADA/PMU/I&amp;C), complementaria a CONECTA.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_jri.html">
+      <div class="card-head"><h3>JRI Ingeniería S.A.</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Consultora de ingeniería multidisciplinaria para minería y metalurgia (plantas, relaves, pipelines)</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> Casa Central: Luis Uribe 2343, Ñuñoa, Santiago. Sede: Suecia 211, Providencia. Sede Lima, Perú.</div></div>
+      <div class="ing">Especifica electricidad, instrumentación y control en proyectos de plantas/relaves/pipelines pero no integra SCADA/DCS, por lo que puede subcontratar a CONECTA como especialista I&amp;C.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_montelco.html">
+      <div class="card-head"><h3>Montelco (Montajes Eléctricos y Construcciones Montelco Ltda.)</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Ingeniería eléctrica industrial, minera y residencial: montaje eléctrico, instrumentación y automatización (PLC, SCADA, telemetría), fotovoltaica.</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> Río de Janeiro 480, Recreo, Viña del Mar, Región de Valparaíso</div></div>
+      <div class="ing">Montajista eléctrico e instrumentación con más de 25 años; complementa a CONECTA ejecutando la obra eléctrica/I&amp;C donde CONECTA aporta SCADA, protecciones y DCS.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_pares_alvarez.html">
+      <div class="card-head"><h3>Pares y Álvarez Ingenieros Asociados Ltda.</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Ingeniería, gerenciamiento de construcción, compras y EPC/EPCM/EPS industrial (minería, energía, desalación, manufactura).</div>
+      <div class="meta"><div><b>Dotación:</b> ~189 colaboradores (ChilePymes); &gt;1.000 profesionales según Cámara Chileno-Australiana</div><div><b>Sede:</b> Cerro El Plomo 5630, Of. 1501, Las Condes, Santiago, Chile</div></div>
+      <div class="ing">EPCM que especifica y subcontrata la especialidad eléctrica/I&amp;C (SCADA, control, instrumentación); CONECTA entra como subcontratista de esa especialidad en sus proyectos.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_sei.html">
+      <div class="card-head"><h3>SEI Ingeniería Electroindustrial Limitada</h3><span class="badge tag-azul">SOCIO</span></div>
+      <div class="region">Montajes eléctricos y mecánicos, proyectos de ingeniería eléctrica/mecánica e integración de control y automatización industrial.</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> Av. San Pablo 9900, Torre 2, Bodega 11, Megacentro San Pablo, Pudahuel, Santiago</div></div>
+      <div class="ing">Montajista eléctrico + integración de automatización (upgrade/migración) para minería e industria; complementario a CONECTA en obra, con leve solape en integración de control.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_reich.html">
+      <div class="card-head"><h3>Reich JRI Ingeniería (REICH Ingeniería SpA)</h3><span class="badge tag-amb">COMPETIDOR</span></div>
+      <div class="region">Ingeniería eléctrica de potencia para minería y energía (líneas de transmisión, subestaciones, control y protecciones)</div>
+      <div class="meta"><div><b>Dotación:</b> no verificado</div><div><b>Sede:</b> Fidel Oteíza 1953, Of. 102, Providencia, Santiago</div></div>
+      <div class="ing">Solapamiento directo en ingeniería de control, protecciones y subestaciones (dominio IEC 61850); puede ser competidor en especificación de protecciones o socio en EPCM eléctrico donde CONECTA integra.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_tunning.html">
+      <div class="card-head"><h3>Tunning Ingeniería SpA (Tunning Electric)</h3><span class="badge tag-amb">COMPETIDOR</span></div>
+      <div class="region">Integrador de automatización y control industrial: SCADA eléctrico, protecciones eléctricas, control de procesos y accionamientos (partners Rockwell, Siemens, Schneider).</div>
+      <div class="meta"><div><b>Dotación:</b> ~141 trabajadores (ChilePymes); ~200 en peak operacional</div><div><b>Sede:</b> Lautaro 803, Providencia, Santiago · oficinas Calama (Av. Central Norte 1644, Villa Ayquina), Lima (Av. Larco 880, Miraflores) y Houston (Texas)</div></div>
+      <div class="ing">Solapamiento directo en SCADA, protecciones eléctricas y control de proceso; la diferenciación de CONECTA es DCS SUPCON + PMU/RTU, donde Tunning no representa DCS.</div>
+    </a>
+    <a class="card ficha-link" href="ficha_tetra_tech.html">
+      <div class="card-head"><h3>Tetra Tech Sudamérica S.A. (Metálica Consultores)</h3><span class="badge tag-azul">SOCIO/CANAL</span></div>
+      <div class="region">Consultora de ingeniería minera, recursos hídricos y medio ambiente (perfil, prefactibilidad, factibilidad, planificación minera)</div>
+      <div class="meta"><div><b>Dotación:</b> ~62 empleados (Chile); Tetra Tech global ~25.000 empleados en más de 125 países</div><div><b>Sede:</b> Evaristo Lillo 78, Piso 5, Las Condes, Santiago, Chile</div></div>
+      <div class="ing">Consultora que especifica disciplinas de ingeniería (incl. instrumentación y control) en estudios conceptuales/básicos para la gran minería, pero no ejecuta el suministro ni montaje de SCADA/DCS/protecciones IEC 61850 — socio para especificar y canal para que CONECTA ejecute en fases de detalle</div>
+    </a></div>
+<div class="warn">⚠ Datos en investigación con fuente pública verificable. Los contactos marcados "formato inferido" deben confirmarse antes de uso. Nada se inventa: campo sin fuente queda vacío.</div>
+<footer>CONECTA Ingeniería · Catálogo de ingenierías · agosto 2026</footer>
+</div></body></html>
