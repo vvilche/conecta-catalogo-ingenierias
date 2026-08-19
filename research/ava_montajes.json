@@ -1,0 +1,144 @@
+{
+  "empresa": "Ingeniería AVA Montajes Limitada",
+  "slug": "ava_montajes",
+  "rubro": "Ingeniería, construcción y montaje industrial EPC para minería (público y privado), greenfield y brownfield.",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Montajista/EPC minero de gran escala que ejecuta obra gruesa, estructuras, tuberías y electromecánico, y subcontrata la especialidad de instrumentación/control/SCADA; canal natural para CONECTA.",
+  "quien_es": {
+    "descripcion": "Empresa chilena de ingeniería, construcción y montaje industrial con más de 36 años de trayectoria, oficinas en Biobío, Santiago, Calama e Iquique, y clientes como Codelco (Andina, Radomiro Tomic, Chuquicamata), BHP, Collahuasi, Albemarle y Candelaria.",
+    "fundada": "1990 (marca comercial); inicio de actividades legales 20-01-2005",
+    "dotacion": "~1.083 trabajadores (ChilePymes); media histórica ~1.600 (2005-2023)",
+    "facturacion": "Tramo de ventas 12 (600.000,01–1.000.000 UF/año); monto exacto no verificado",
+    "matriz_grupo": "Grupo AVA (fundadores Alejandro Vega, Claudio Vega y Pedro González)",
+    "rut": "76.214.280-5",
+    "sede": "Autopista Concepción-Talcahuano 8696, Hualpén, Región del Biobío, Chile",
+    "fuentes": [
+      "https://ava.cl/",
+      "https://www.avamontajes.cl/nosotros",
+      "https://chilepymes.com/info/ingenieria-ava-montajes-limitada-B0ECC3808D4ED8AA",
+      "https://datalux.cl/empresa/76214280-5-ingenieria-ava-montajes-ltda/"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería",
+      "Construcción",
+      "Montaje industrial",
+      "EPC (Engineering, Procurement and Construction)",
+      "Proyectos greenfield y brownfield"
+    ],
+    "rol_cadena": "EPC de montaje y construcción (obra gruesa, estructuras, tuberías, electromecánico); subcontrata la especialidad de control e instrumentación, donde CONECTA es proveedor natural.",
+    "fuentes": [
+      "https://ava.cl/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Mejoramiento soluciones GELN — recirculación de electrolito SX–Patio de Estanques–EW",
+      "cliente": "Codelco Radomiro Tomic",
+      "ubicacion": "Calama, Región de Antofagasta, Chile",
+      "monto": "no verificado (plazo 10 meses; 143.237 HH)",
+      "fuente": "https://ava.cl/proyectos/obras-de-construccion-y-montaje-proyecto-mejoramiento-soluciones-geln/"
+    },
+    {
+      "proyecto": "Montaje mecánico transporte mecanizado de carbón (cinta muelle granelero–Central Santa María)",
+      "cliente": "Puerto Coronel (Colbún)",
+      "ubicacion": "Coronel, Región del Biobío, Chile",
+      "monto": "no verificado (plazo 7 meses; ~65.000 HH)",
+      "fuente": "https://ava.cl/proyectos/montaje-mecanico-transporte-mecanizado-de-carbon/"
+    },
+    {
+      "proyecto": "Saneamiento canaleta de relaves Km 2,190",
+      "cliente": "Codelco División Andina",
+      "ubicacion": "Región de Valparaíso, Chile",
+      "monto": "no verificado (plazo ~6 meses; ~94.533 HH)",
+      "fuente": "https://www.cabecera.correo.pasajes.avamontajes.cl/nuestros-proyectos/greenfield-y-brownfield/codelco-andina/obras-de-saneamiento-canaleta-de-relaves-km-2-190-codelco-division-andina"
+    },
+    {
+      "proyecto": "Tercer espesador de relaves — sistema de agua recuperada (EPC)",
+      "cliente": "Collahuasi",
+      "ubicacion": "Región de Tarapacá, Chile",
+      "monto": "no verificado",
+      "fuente": "https://ava.cl/ciudad/iquique/"
+    },
+    {
+      "proyecto": "Expansión planta de carbonato de litio La Negra",
+      "cliente": "Albemarle",
+      "ubicacion": "Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://aprimin.cl/site/asociados/ava-montajes-experiencia-confianza-y-cercania-las-claves-del-compromiso-con-sus-clientes/"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Alejandro Vega Vallejos",
+      "cargo": "Gerente General / Presidente del Directorio",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.avamontajes.cl/nosotros"
+    },
+    {
+      "nombre": "Claudio Vega Vallejos",
+      "cargo": "Gerente General (nueva etapa)",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://es.linkedin.com/posts/ava-montajes_en-ava-seguimos-construyendo-un-futuro-s%C3%B3lido-activity-7316219500993925122-2C_S",
+      "fuente": "https://es.linkedin.com/posts/ava-montajes_en-ava-seguimos-construyendo-un-futuro-s%C3%B3lido-activity-7316219500993925122-2C_S"
+    },
+    {
+      "nombre": "Julio Beltrán Navarro",
+      "cargo": "Gerente de Operaciones",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/julio-beltr%C3%A1n-navarro-426478304",
+      "fuente": "https://cl.linkedin.com/in/julio-beltr%C3%A1n-navarro-426478304"
+    },
+    {
+      "nombre": "Freddy Sanhueza",
+      "cargo": "Gerente de Proyectos",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/freddy-sanhueza-b2835b150",
+      "fuente": "https://cl.linkedin.com/in/freddy-sanhueza-b2835b150"
+    },
+    {
+      "nombre": "César Orlando Sandoval Ogaz",
+      "cargo": "Gerente de Operaciones y Desarrollo de Negocios",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/cesar-orlando-sandoval-ogaz-4361b719",
+      "fuente": "https://cl.linkedin.com/in/cesar-orlando-sandoval-ogaz-4361b719"
+    },
+    {
+      "nombre": "Priscilla Santibañez Pizarro",
+      "cargo": "Jefe de Programación y Control de Proyectos",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/priscilla-santiba%C3%B1ez-pizarro-92a44529a",
+      "fuente": "https://cl.linkedin.com/in/priscilla-santiba%C3%B1ez-pizarro-92a44529a"
+    },
+    {
+      "nombre": "Constanza Daniela López Martínez",
+      "cargo": "Jefe Oficina Técnica / Ingeniero de Planificación y Control de Proyectos",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/constanza-daniela-lopez-martinez",
+      "fuente": "https://cl.linkedin.com/in/constanza-daniela-lopez-martinez"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Autopista Concepción-Talcahuano 8696, Hualpén, Biobío (también Santiago: Isidora Goyenechea 3162, Las Condes; Calama; Iquique)",
+    "telefono": "+56 41 210 6950 (central); Calama +56 55 289 5930; Iquique +56 57 226 7990",
+    "correo": "",
+    "web": "https://ava.cl",
+    "fuente": "https://ava.cl/contacto/"
+  }
+}
