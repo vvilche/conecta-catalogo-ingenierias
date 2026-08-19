@@ -1,0 +1,43 @@
+{
+  "empresa": "SEI Ingeniería Electroindustrial Limitada",
+  "slug": "sei",
+  "rubro": "Montajes eléctricos y mecánicos, proyectos de ingeniería eléctrica/mecánica e integración de control y automatización industrial.",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Montajista eléctrico + integración de automatización (upgrade/migración) para minería e industria; complementario a CONECTA en obra, con leve solape en integración de control.",
+  "quien_es": {
+    "descripcion": "Empresa chilena de ingeniería electroindustrial: montajes industriales y eléctricos, proyectos de ingeniería, comercialización de materiales eléctricos y control/automatización industrial.",
+    "fundada": "constituida 20-nov-2009 · inicio de actividades 07-ene-2010",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Sociedad propia",
+    "rut": "76.083.584-6",
+    "sede": "Av. San Pablo 9900, Torre 2, Bodega 11, Megacentro San Pablo, Pudahuel, Santiago",
+    "fuentes": [
+      "https://seingenieria.com/about-us.php",
+      "https://seingenieria.com/services.php"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Proyectos de ingeniería eléctrica / mecánica",
+      "Montajes eléctricos",
+      "Montajes mecánicos",
+      "Control y automatización industrial (integración, upgrade y migración de sistemas)",
+      "Medición de calidad de energía",
+      "Comercialización y fabricación"
+    ],
+    "rol_cadena": "Montajista eléctrico/mecánico con capacidad de integración de automatización (upgrade/migración). No es EPC completo; encaja como subcontratista de obra eléctrica o socio de ejecución para CONECTA.",
+    "fuentes": [
+      "https://seingenieria.com/services.php"
+    ]
+  },
+  "proyectos": [],
+  "tomadores": [],
+  "contacto_corporativo": {
+    "direccion": "Av. San Pablo 9900, Torre 2, Bodega 11, Megacentro San Pablo, Pudahuel, Santiago",
+    "telefono": "+56 9 5608 5088",
+    "correo": "secretaria@seingenieria.com",
+    "web": "https://seingenieria.com",
+    "fuente": "https://seingenieria.com/contacto.php"
+  }
+}
