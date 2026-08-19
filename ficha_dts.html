@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desarrollo de Tecnologías y Sistemas SpA (DTS SpA) — Canal/Socio CONECTA</title><style>
+  :root { --bg:#f8fafc; --ink:#071324; --accent:#2563eb; --accent-soft:#dbeafe;
+          --accent-softer:#eff6ff; --green:#059669; --green-soft:#d1fae5;
+          --amber:#d97706; --amber-soft:#fef3c7; --muted:#64748b; --border:#e2e8f0;
+          --radius-lg:20px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--ink);
+         line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1120px; margin:0 auto; padding:40px 24px 80px; }
+  .kicker { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.12em;
+            text-transform:uppercase; color:var(--accent); background:var(--accent-softer);
+            padding:6px 14px; border-radius:100px; }
+  h1 { font-size:32px; font-weight:700; margin-top:14px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:15px; margin-top:6px; max-width:720px; }
+  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
+          color:var(--accent); text-decoration:none; margin-bottom:22px; }
+  .legend { display:flex; gap:10px; margin:24px 0 8px; flex-wrap:wrap; }
+  .legend span { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500;
+                 color:var(--muted); background:#fff; border:1px solid var(--border);
+                 padding:8px 14px; border-radius:100px; }
+  .dot { width:10px; height:10px; border-radius:50%; }
+  .dot.c { background:var(--green); } .dot.s { background:var(--accent); } .dot.comp { background:var(--amber); }
+  .section-title { font-size:19px; font-weight:700; margin:30px 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }
+  .card { background:#fff; border:1px solid var(--border); border-radius:var(--radius-lg);
+          padding:20px; box-shadow:0 1px 2px rgba(7,19,36,.04); }
+  a.card.ficha-link { text-decoration:none; color:inherit; display:flex; flex-direction:column;
+          transition:box-shadow .15s ease, transform .15s ease; }
+  a.card.ficha-link:hover { box-shadow:0 8px 24px rgba(7,19,36,.08); transform:translateY(-2px); }
+  .card-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:4px; }
+  .card h3 { font-size:17px; font-weight:700; }
+  .badge { font-size:11px; font-weight:700; letter-spacing:.04em; padding:3px 10px;
+           border-radius:100px; white-space:nowrap; }
+  .region { font-size:12.5px; color:var(--muted); margin-bottom:10px; }
+  .meta { font-size:13px; margin-bottom:8px; } .meta div { margin-bottom:3px; } .meta b { color:var(--ink); }
+  .ing { font-size:12.5px; color:var(--accent); font-weight:600; }
+
+  .section { margin-top:30px; }
+  .section h2 { font-size:19px; font-weight:700; margin-bottom:12px; padding-bottom:8px;
+                border-bottom:2px solid var(--accent-soft); }
+  .kv { font-size:13.5px; } .kv div { margin-bottom:4px; } .kv b { color:var(--ink); }
+  .serv { margin:0 0 8px 18px; font-size:13.5px; } .serv li { margin-bottom:3px; }
+  .rolc { font-size:13.5px; color:var(--muted); }
+  .fuente { font-size:11.5px; color:var(--muted); margin-top:8px; padding-left:14px; }
+  .fuente a { color:var(--accent); text-decoration:none; word-break:break-all; }
+  .fuente a:hover { text-decoration:underline; }
+  .fuente::before { content:"\2192 "; color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; background:#fff;
+          border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border); }
+  th { background:var(--accent-softer); color:var(--ink); font-weight:700; text-align:left;
+       padding:10px 12px; font-size:12px; }
+  td { padding:10px 12px; border-top:1px solid var(--border); vertical-align:top; }
+  td.src { font-size:11px; color:var(--muted); min-width:140px; }
+  td.src .fuente { margin-top:0; padding-left:0; }
+  .contacto { display:flex; align-items:center; justify-content:space-between; gap:10px;
+              margin-bottom:6px; font-size:13.5px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+  .contacto:last-of-type { border-bottom:none; }
+  .contacto .nombre { font-weight:700; }
+  .rol { font-size:12px; color:var(--muted); }
+  .contacto .cta { display:flex; gap:6px; flex-shrink:0; flex-wrap:wrap; }
+  .chip { font-size:11px; font-weight:600; padding:4px 10px; border-radius:100px; text-decoration:none;
+          background:var(--accent-softer); color:var(--accent); white-space:nowrap; }
+  .chip:hover { background:var(--accent-soft); }
+  .chip.mail { background:var(--green-soft); color:var(--green); }
+  .tag { display:inline-block; font-size:11px; font-weight:700; padding:3px 10px; border-radius:100px; }
+  .tag-verde { background:var(--green-soft); color:var(--green); }
+  .tag-amb { background:var(--amber-soft); color:var(--amber); }
+  .tag-azul { background:var(--accent-softer); color:var(--accent); }
+  .tag-gris { background:#e2e8f0; color:#475569; }
+  .oportunidad { border-left:4px solid var(--amber); }
+  .oportunidad p { font-size:13.5px; color:var(--muted); margin-top:6px; }
+  footer { margin-top:40px; color:var(--muted); font-size:12px; text-align:center; }
+  .warn { background:var(--amber-soft); border:1px solid var(--amber); color:var(--amber);
+          border-radius:12px; padding:10px 14px; font-size:12.5px; margin-top:14px; }
+</style></head>
+<body><div class="wrap">
+<a class="back" href="index.html">← Volver al catálogo</a>
+<header><span class="kicker">Canal / Socio · Ingeniería industrial</span>
+<h1>Desarrollo de Tecnologías y Sistemas SpA (DTS SpA)</h1>
+<p class="sub">Integración de sistemas de control/automatización, electrónica, calibraciones y mantenimiento para defensa, aeroespacial e industria civil (filial ENAER).</p></header>
+<div class="section"><h2>1 · Quién es</h2><div class="card"><div class="kv"><div>Empresa chilena fundada en 1991, líder en prestación de servicios, desarrollo de tecnologías e integración de sistemas para defensa e industria civil en las áreas de electrónica, tecnologías de la información, aviación, simulación, telecomunicaciones y calibración. Cumple ISO 9001:2015 y normas nacionales/internacionales. Su cartera incluye Fuerzas Armadas chilenas y empresas latinoamericanas. Ubicada en Macul, Santiago.</div><div><b>Fundada:</b> 1991</div><div><b>Matriz / grupo:</b> ENAER (Empresa Nacional de Aeronáutica de Chile) — filial de propiedad 100%</div><div><b>RUT:</b> 78.080.440-8</div><div><b>Sede:</b> Rodrigo de Araya 1263, Macul, Santiago, Región Metropolitana, Chile</div></div><div class="fuente"><a href="https://www.dts.cl/our-company/?lang=en" target="_blank" rel="noopener">www.dts.cl/our-company/?lang=en</a> · <a href="https://www.dts.cl/" target="_blank" rel="noopener">www.dts.cl</a> · <a href="https://www.direcmin.com/_file/Direcmin_2024.pdf" target="_blank" rel="noopener">www.direcmin.com/_file/Direcmin_2024.pdf</a> · <a href="https://www.enaer.cl/ChileTransparente/pdf/memorias_anuales/MEMORIA%20ENAER%202021%20.pdf" target="_blank" rel="noopener">www.enaer.cl/ChileTransparente/pdf/memorias_anuales/MEMOR…</a> · <a href="https://www.mercadopublico.cl/BID/Modules/PopUps/InformationProvider.aspx?enc=paWGp8VQcXjmLBtYzzTosG6casGJ0cq2utwnvtvafnGIu8LlOeP55iI3Vtib34VCHomjk9eb3PfoeSGjNcMhXQ%3D%3D" target="_blank" rel="noopener">www.mercadopublico.cl/BID/Modules/PopUps/InformationProvi…</a></div></div></div><div class="section"><h2>2 · Qué hace</h2><div class="card"><ul class="serv"><li>Mando y control (C4ISR) y guerra electrónica</li><li>Simulación y entrenamiento</li><li>Mantenimiento, reparación y modernización de sistemas electrónicos</li><li>Control automático: SCADA/PLC, variadores de frecuencia, convertidores estáticos, sistemas de adquisición de datos</li><li>Calibraciones y metrología (acreditado NCh-ISO/IEC 17025:2017)</li><li>Diseño y fabricación de bancos de prueba</li><li>Seguridad electrónica y e-learning</li></ul><p class="rolc">Integra sistemas de control/automatización (SCADA-PLC) y control automático con división propia — solapa con CONECTA en esa especialidad — pero su foco principal es defensa/aeroespacial (filial ENAER: FACh, Armada) más calibraciones y soporte electrónico; no ejecuta obra gruesa ni EPC industrial minero.</p><div class="fuente"><a href="https://www.dts.cl/control-automatico/" target="_blank" rel="noopener">www.dts.cl/control-automatico</a> · <a href="https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf" target="_blank" rel="noopener">www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Aut…</a> · <a href="https://www.dts.cl/wp-content/uploads/2026/06/Memoria-Anual-DTS-2025.pdf" target="_blank" rel="noopener">www.dts.cl/wp-content/uploads/2026/06/Memoria-Anual-DTS-2…</a></div></div></div><div class="section"><h2>3 · Proyectos / clientes</h2><table><tr><th>Proyecto</th><th>Cliente</th><th>Ubicación</th><th>Monto</th><th>Fuente</th></tr><tr><td><b>Sistemas de mando y control y soporte de aviónica para plataformas de combate, enlace y transporte</b></td><td>Fuerza Aérea de Chile (FACh)</td><td>Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa" target="_blank" rel="noopener">www.infodefensa.com/texto-diario/mostrar/3125161/dts-pres…</a></div></td></tr><tr><td><b>Proyectos de guerra electrónica y sistemas navales</b></td><td>Armada de Chile</td><td>Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa" target="_blank" rel="noopener">www.infodefensa.com/texto-diario/mostrar/3125161/dts-pres…</a></div></td></tr><tr><td><b>Mantenimiento y aviónica de combate (Mirage Cheetah)</b></td><td>Armada del Ecuador</td><td>Ecuador</td><td></td><td class="src"><div class="fuente"><a href="https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa" target="_blank" rel="noopener">www.infodefensa.com/texto-diario/mostrar/3125161/dts-pres…</a></div></td></tr><tr><td><b>Desarrollo de simuladores de vuelo y mantenimiento de aviónica</b></td><td>ENAER (Empresa Nacional de Aeronáutica de Chile)</td><td>Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa" target="_blank" rel="noopener">www.infodefensa.com/texto-diario/mostrar/3125161/dts-pres…</a></div></td></tr><tr><td><b>Actualización de variadores de frecuencia para control de bombas y compresores (submarinos) y diseño de convertidores estáticos</b></td><td>Armada de Chile</td><td>Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf" target="_blank" rel="noopener">www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Aut…</a></div></td></tr><tr><td><b>Diseño/fabricación de sistemas de adquisición de datos de maquinaria para camiones de uso minero</b></td><td>Minería (no especificado)</td><td>Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf" target="_blank" rel="noopener">www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Aut…</a></div></td></tr></table></div><div class="section"><h2>4 · Tomadores de decisión</h2><div class="card"><div class="contacto"><div><span class="nombre">Roberto Javier Avendaño Veloso</span><div class="rol">Gerente General</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.dts.cl/transparencia/directorio-y-administracion/" target="_blank" rel="noopener">www.dts.cl/transparencia/directorio-y-administracion</a></div><div class="contacto"><div><span class="nombre">Henry Cleveland Cartes</span><div class="rol">Presidente del Directorio</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.dts.cl/wp-content/uploads/2025/04/Informe-memoria-anual-DTS_-Aprobada.pdf" target="_blank" rel="noopener">www.dts.cl/wp-content/uploads/2025/04/Informe-memoria-anu…</a></div><div class="contacto"><div><span class="nombre">Paola Neira Carbonell</span><div class="rol">Gerente Comercial / Gerente de Ventas</div></div><div class="cta"><a class="chip" href="https://www.linkedin.com/company/dtsspa/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://www.linkedin.com/company/dtsspa/" target="_blank" rel="noopener">www.linkedin.com/company/dtsspa</a></div><div class="contacto"><div><span class="nombre">Sergio Vásquez</span><div class="rol">Gerente de Ventas Defensa</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2/" target="_blank" rel="noopener">www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2</a></div><div class="contacto"><div><span class="nombre">Francisco Pizarro Aste</span><div class="rol">Subgerente de Desarrollo y Modernización de Sistemas</div></div><div class="cta"><a class="chip" href="https://es.linkedin.com/posts/dtsspa_contribuci%C3%B3n-al-plan-nacional-continuo-de-activity-7325517955197190144-WmJW" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://es.linkedin.com/posts/dtsspa_contribuci%C3%B3n-al-plan-nacional-continuo-de-activity-7325517955197190144-WmJW" target="_blank" rel="noopener">es.linkedin.com/posts/dtsspa_contribuci%C3%B3n-al-plan-na…</a></div><div class="contacto"><div><span class="nombre">Rubén Castillo</span><div class="rol">Subgerente de Mantenimiento y Rediseño</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2/" target="_blank" rel="noopener">www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2</a></div><div class="contacto"><div><span class="nombre">Christian Ossio</span><div class="rol">Subgerente de Calidad</div></div><div class="cta"><a class="chip" href="https://cl.linkedin.com/in/christian-ossio-1980" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://cl.linkedin.com/in/christian-ossio-1980" target="_blank" rel="noopener">cl.linkedin.com/in/christian-ossio-1980</a></div></div></div><div class="section"><h2>5 · Contacto corporativo</h2><div class="card"><div class="kv"><div><b>Dirección:</b> Rodrigo de Araya 1263, Macul, Santiago, Región Metropolitana, Chile</div><div><b>Teléfono:</b> +56 2 2397 1000 / +56 223 971 000</div><div><b>Correo:</b> info@dts.cl</div><div><b>Web:</b> https://www.dts.cl</div></div><div class="fuente"><a href="https://www.dts.cl/contacto/" target="_blank" rel="noopener">www.dts.cl/contacto</a></div></div></div><div class="section"><h2>6 · Ángulo CONECTA</h2><div class="card oportunidad"><h3>Ángulo CONECTA <span class="tag tag-azul">SOCIO</span></h3>
+      <p>Integra SCADA/PLC y control automático con división propia (solape parcial con CONECTA en esa especialidad), pero su foco dominante es defensa/aeroespacial (ENAER, FACh, Armada) y cuenta con laboratorio de calibración acreditado NCh-ISO/IEC 17025:2017 — canal y capacidades complementarias, no competidor directo en minería/industrial.</p></div></div>
+<footer>CONECTA Ingeniería · Catálogo de ingenierías · agosto 2026 · Cada dato cita su fuente verificable</footer>
+</div></body></html>

@@ -1,0 +1,156 @@
+{
+  "empresa": "Desarrollo de Tecnologías y Sistemas SpA (DTS SpA)",
+  "slug": "dts",
+  "rubro": "Integración de sistemas de control/automatización, electrónica, calibraciones y mantenimiento para defensa, aeroespacial e industria civil (filial ENAER).",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Integra SCADA/PLC y control automático con división propia (solape parcial con CONECTA en esa especialidad), pero su foco dominante es defensa/aeroespacial (ENAER, FACh, Armada) y cuenta con laboratorio de calibración acreditado NCh-ISO/IEC 17025:2017 — canal y capacidades complementarias, no competidor directo en minería/industrial.",
+  "quien_es": {
+    "descripcion": "Empresa chilena fundada en 1991, líder en prestación de servicios, desarrollo de tecnologías e integración de sistemas para defensa e industria civil en las áreas de electrónica, tecnologías de la información, aviación, simulación, telecomunicaciones y calibración. Cumple ISO 9001:2015 y normas nacionales/internacionales. Su cartera incluye Fuerzas Armadas chilenas y empresas latinoamericanas. Ubicada en Macul, Santiago.",
+    "fundada": "1991",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "ENAER (Empresa Nacional de Aeronáutica de Chile) — filial de propiedad 100%",
+    "rut": "78.080.440-8",
+    "sede": "Rodrigo de Araya 1263, Macul, Santiago, Región Metropolitana, Chile",
+    "fuentes": [
+      "https://www.dts.cl/our-company/?lang=en",
+      "https://www.dts.cl/",
+      "https://www.direcmin.com/_file/Direcmin_2024.pdf",
+      "https://www.enaer.cl/ChileTransparente/pdf/memorias_anuales/MEMORIA%20ENAER%202021%20.pdf",
+      "https://www.mercadopublico.cl/BID/Modules/PopUps/InformationProvider.aspx?enc=paWGp8VQcXjmLBtYzzTosG6casGJ0cq2utwnvtvafnGIu8LlOeP55iI3Vtib34VCHomjk9eb3PfoeSGjNcMhXQ%3D%3D"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Mando y control (C4ISR) y guerra electrónica",
+      "Simulación y entrenamiento",
+      "Mantenimiento, reparación y modernización de sistemas electrónicos",
+      "Control automático: SCADA/PLC, variadores de frecuencia, convertidores estáticos, sistemas de adquisición de datos",
+      "Calibraciones y metrología (acreditado NCh-ISO/IEC 17025:2017)",
+      "Diseño y fabricación de bancos de prueba",
+      "Seguridad electrónica y e-learning"
+    ],
+    "rol_cadena": "Integra sistemas de control/automatización (SCADA-PLC) y control automático con división propia — solapa con CONECTA en esa especialidad — pero su foco principal es defensa/aeroespacial (filial ENAER: FACh, Armada) más calibraciones y soporte electrónico; no ejecuta obra gruesa ni EPC industrial minero.",
+    "fuentes": [
+      "https://www.dts.cl/control-automatico/",
+      "https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf",
+      "https://www.dts.cl/wp-content/uploads/2026/06/Memoria-Anual-DTS-2025.pdf"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Sistemas de mando y control y soporte de aviónica para plataformas de combate, enlace y transporte",
+      "cliente": "Fuerza Aérea de Chile (FACh)",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa"
+    },
+    {
+      "proyecto": "Proyectos de guerra electrónica y sistemas navales",
+      "cliente": "Armada de Chile",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa"
+    },
+    {
+      "proyecto": "Mantenimiento y aviónica de combate (Mirage Cheetah)",
+      "cliente": "Armada del Ecuador",
+      "ubicacion": "Ecuador",
+      "monto": "no verificado",
+      "fuente": "https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa"
+    },
+    {
+      "proyecto": "Desarrollo de simuladores de vuelo y mantenimiento de aviónica",
+      "cliente": "ENAER (Empresa Nacional de Aeronáutica de Chile)",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.infodefensa.com/texto-diario/mostrar/3125161/dts-presenta-desarrollos-sistemas-tecnologias-defensa"
+    },
+    {
+      "proyecto": "Actualización de variadores de frecuencia para control de bombas y compresores (submarinos) y diseño de convertidores estáticos",
+      "cliente": "Armada de Chile",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf"
+    },
+    {
+      "proyecto": "Diseño/fabricación de sistemas de adquisición de datos de maquinaria para camiones de uso minero",
+      "cliente": "Minería (no especificado)",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.dts.cl/wp-content/uploads/2023/01/Folleto-Control-Automatico.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Roberto Javier Avendaño Veloso",
+      "cargo": "Gerente General",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.dts.cl/transparencia/directorio-y-administracion/"
+    },
+    {
+      "nombre": "Henry Cleveland Cartes",
+      "cargo": "Presidente del Directorio",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.dts.cl/wp-content/uploads/2025/04/Informe-memoria-anual-DTS_-Aprobada.pdf"
+    },
+    {
+      "nombre": "Paola Neira Carbonell",
+      "cargo": "Gerente Comercial / Gerente de Ventas",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://www.linkedin.com/company/dtsspa/",
+      "fuente": "https://www.linkedin.com/company/dtsspa/"
+    },
+    {
+      "nombre": "Sergio Vásquez",
+      "cargo": "Gerente de Ventas Defensa",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2/"
+    },
+    {
+      "nombre": "Francisco Pizarro Aste",
+      "cargo": "Subgerente de Desarrollo y Modernización de Sistemas",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://es.linkedin.com/posts/dtsspa_contribuci%C3%B3n-al-plan-nacional-continuo-de-activity-7325517955197190144-WmJW",
+      "fuente": "https://es.linkedin.com/posts/dtsspa_contribuci%C3%B3n-al-plan-nacional-continuo-de-activity-7325517955197190144-WmJW"
+    },
+    {
+      "nombre": "Rubén Castillo",
+      "cargo": "Subgerente de Mantenimiento y Rediseño",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.dts.cl/dts-y-su-rol-en-la-aeronautica-nacional-2/"
+    },
+    {
+      "nombre": "Christian Ossio",
+      "cargo": "Subgerente de Calidad",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/christian-ossio-1980",
+      "fuente": "https://cl.linkedin.com/in/christian-ossio-1980"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Rodrigo de Araya 1263, Macul, Santiago, Región Metropolitana, Chile",
+    "telefono": "+56 2 2397 1000 / +56 223 971 000",
+    "correo": "info@dts.cl",
+    "web": "https://www.dts.cl",
+    "fuente": "https://www.dts.cl/contacto/"
+  }
+}
