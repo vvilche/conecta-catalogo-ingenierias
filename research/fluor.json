@@ -1,0 +1,88 @@
+{
+  "empresa": "Fluor Chile Ingeniería y Construcción S.A.",
+  "slug": "fluor",
+  "rubro": "EPCM de ingeniería, procura y gestión de construcción para minería y metales (cobre, oro, molibdeno) e industria",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "EPCM global que gestiona procura y construcción de proyectos mineros y subcontrata la especialidad eléctrica/control (SCADA, instrumentación, protecciones) a integradores como CONECTA",
+  "quien_es": {
+    "descripcion": "Filial chilena de Fluor Corporation (EE.UU.), uno de los mayores EPCM globales. Desde su oficina en Santiago ofrece ingeniería, adquisiciones y gestión de construcción (EPCM), ingeniería básica y de detalle y factibilidad para la industria de minería y metales. Chile es uno de sus centros de excelencia global, con experiencia especializada en cobre, oro y molibdeno, y en proyectos en condiciones geográficas exigentes (gran altitud, desaladoras, puertos, relaves, líneas de transmisión).",
+    "fundada": "no verificado (Fluor Corporation fundada en 1912, EE.UU.)",
+    "dotacion": "no verificado para Chile",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Fluor Corporation, Estados Unidos",
+    "rut": "85.555.900-5",
+    "sede": "Reyes Lavalle 3340, Piso 7, Las Condes, Santiago, Región Metropolitana, Chile",
+    "fuentes": [
+      "https://www.fluor.com/chile/en",
+      "https://www.fluor.com/about-fluor/locations/countries/chile",
+      "https://red-conecta.com/empresa/3963/fluor-chile-sa",
+      "https://www.direcmin.com/fluor-chile/ejecutivos"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "EPCM (ingeniería, procura y gestión de construcción)",
+      "Ingeniería básica y de detalle",
+      "Estudios de factibilidad",
+      "Procura y adquisiciones",
+      "Gestión de construcción y comisionamiento",
+      "Plantas concentradoras, lixiviación, desaladoras, relaves, puertos, líneas de transmisión"
+    ],
+    "rol_cadena": "EPCM: gestiona ingeniería, procura y construcción (construction management), pero no auto-ejecuta el montaje eléctrico/control; subcontrata las especialidades. Para Nueva Centinela PV2 forma JV con Salfa (Fluor-Salfa) para el EPC de construcción, y la especialidad de instrumentación/control/eléctrica se subcontrata a integradores especializados como CONECTA.",
+    "fuentes": [
+      "https://www.fluor.com/projects/minera-escondida-copper-mine-epcm",
+      "https://www.emb.cl/construccion/noticia.mvc?nid=20240124w8",
+      "https://www.nuevamineria.com/revista/wp-content/uploads/2026/02/nueva-mineria-febrero-2026.pdf"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Minera Escondida — más de 45 proyectos EPCM en mina y offsites: planta concentradora original, puerto Coloso, planta de lixiviación/SX-EW, lixiviación de sulfuros, tuberías de concentrado, desaladora y expansiones del concentrador",
+      "cliente": "Minera Escondida (BHP)",
+      "ubicacion": "Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.fluor.com/projects/minera-escondida-copper-mine-epcm"
+    },
+    {
+      "proyecto": "Nueva Centinela PV2 — EPC planta concentradora (~95.000 t/d) bajo JV Fluor-Salfa",
+      "cliente": "Antofagasta Minerals",
+      "ubicacion": "Región de Antofagasta, Chile",
+      "monto": "no verificado (producción esperada de cobre, molibdeno y oro hacia 2027)",
+      "fuente": "https://www.emb.cl/construccion/noticia.mvc?nid=20240124w8"
+    },
+    {
+      "proyecto": "Cartera reciente: Escondida New Concentrator, El Abra Leach Pad Modification, Nueva Centinela PV2, Salares Norte y Adaptación Operacional (PAO) para Antofagasta Minerals",
+      "cliente": "BHP, Antofagasta Minerals, Minera El Abra, Gold Fields (Salares Norte)",
+      "ubicacion": "Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.nuevamineria.com/revista/wp-content/uploads/2026/02/nueva-mineria-febrero-2026.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Jaime Álvarez",
+      "cargo": "Gerente General, Fluor Chile (General Manager Sudamérica)",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://es.linkedin.com/posts/jaimeaalvarezm0209_en-fluor-chile-velamos-por-la-entrega-de-activity-7085616625076318209-76ay",
+      "fuente": "https://es.linkedin.com/posts/jaimeaalvarezm0209_en-fluor-chile-velamos-por-la-entrega-de-activity-7085616625076318209-76ay"
+    },
+    {
+      "nombre": "Jorge Ansieta Nazal",
+      "cargo": "Project Director / Office Engineering Manager, Fluor Chile S.A. (desde ene. 2025)",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://cl.linkedin.com/in/jorge-ansieta-nazal-9023b945",
+      "fuente": "https://cl.linkedin.com/in/jorge-ansieta-nazal-9023b945"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Reyes Lavalle 3340, Piso 7, Las Condes, Santiago, Región Metropolitana, Chile",
+    "telefono": "+56 2 2340 8000",
+    "correo": "fluorchile@fluor.com",
+    "web": "https://www.fluor.com/chile/en",
+    "fuente": "https://www.fluor.com/about-fluor/locations/countries/chile"
+  }
+}
