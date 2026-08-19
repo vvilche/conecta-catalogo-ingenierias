@@ -1,0 +1,51 @@
+{
+  "empresa": "FDA Ingenieros S.A.",
+  "slug": "fda",
+  "rubro": "Consultora de ingeniería multidisciplinaria (minería, energía, infraestructura e industria) con foco en detalle de plantas mineras",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Especifica electricidad e instrumentación en ingeniería de detalle de plantas mineras pero no integra SCADA/control, por lo que puede derivar o subcontratar la especialidad I&C a CONECTA.",
+  "quien_es": {
+    "descripcion": "Consultora de ingeniería chilena fundada en 2000, con ~200 profesionales y más de 1.600 proyectos realizados, principalmente en minería, energía, infraestructura e industria. Desarrolla ingeniería de detalle, factibilidad y prefactibilidad, apoyo a la construcción, estimaciones CAPEX/OPEX y bases de licitación.",
+    "fundada": "2000",
+    "dotacion": "200 trabajadores (según sitio oficial)",
+    "facturacion": "no verificado",
+    "matriz_grupo": "no verificado",
+    "rut": "",
+    "sede": "Santa Magdalena 75, Of. 710, Providencia, Santiago",
+    "fuentes": ["https://www.fda.cl/", "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería de detalles, factibilidad y prefactibilidad",
+      "Ingeniería de apoyo a la construcción",
+      "Especialidad civil, estructuras (acero/hormigón), obras hidráulicas y sanitarias",
+      "Mecánica y piping, transporte de materiales, ventilación",
+      "Electricidad e instrumentación",
+      "Procesos mineros",
+      "Costos y programación (CAPEX/OPEX), documentación SIC/ADS, bases técnicas de licitación"
+    ],
+    "rol_cadena": "Consultora de ingeniería de detalle/factibilidad y apoyo a la construcción; no ejecuta obra ni es EPC. Especifica electricidad e instrumentación y procesos, pero no integra control/SCADA ni ejecuta montaje eléctrico.",
+    "fuentes": ["https://www.fda.cl/", "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"]
+  },
+  "proyectos": [
+    {"proyecto": "Ingeniería de Prefactibilidad Construcción Comedor Plantas DMH (con metodología BIM)", "cliente": "Codelco División Ministro Hales", "ubicacion": "Calama, Región de Antofagasta", "monto": "no verificado", "fuente": "https://www.fda.cl/copia-de-proyecto-2"},
+    {"proyecto": "Ingeniería de detalle reparación piscina de decantación de 40.000 m³", "cliente": "Minera Centinela (Antofagasta Minerals)", "ubicacion": "Región de Antofagasta", "monto": "no verificado", "fuente": "https://www.fda.cl/_files/ugd/8956d4_14ce31e833d54052a29f974da4b4294c.pdf"},
+    {"proyecto": "Ingeniería de detalles fabricación de estanque — Planta Cal Nº 4", "cliente": "Codelco División Chuquicamata", "ubicacion": "Calama, Región de Antofagasta", "monto": "no verificado", "fuente": "https://www.fda.cl/_files/ugd/8956d4_14ce31e833d54052a29f974da4b4294c.pdf"},
+    {"proyecto": "Habilitación botadero Ripios Fase VIII-B (obra civil, geotecnia, piping)", "cliente": "faena minera norte de Chile (no identificada públicamente)", "ubicacion": "Norte de Chile", "monto": "no verificado", "fuente": "https://es.linkedin.com/posts/fda-ingenieros_ingenier%C3%ADaminera-fdaingenieros-proyectosmultidisciplinarios-activity-7325558484110819328-txL9"},
+    {"proyecto": "Revisión especializada e ingeniería de detalle de sistemas de control y abatimiento de polvo", "cliente": "instalaciones mineras (no identificadas públicamente)", "ubicacion": "Chile", "monto": "no verificado", "fuente": "https://es.linkedin.com/posts/fda-ingenieros_proyecto-destacado-activity-7439671953910697984-QeUu"}
+  ],
+  "tomadores": [
+    {"nombre": "Daniela Martínez Drouillas", "cargo": "Gerente de Operaciones", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"},
+    {"nombre": "Oscar Díaz Gálvez", "cargo": "Gerente Comercial (Socio)", "tipo": "jefe_propuestas", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.fda.cl/"},
+    {"nombre": "Alexander Verdugo", "cargo": "Subgerente Comercial", "tipo": "jefe_propuestas", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"},
+    {"nombre": "Gabriel Figueroa Caresio", "cargo": "Gerente Control de Gestión", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"},
+    {"nombre": "Alejandro Figueroa Araya", "cargo": "Gerente General (Socio)", "tipo": "gerente_general", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.fda.cl/"}
+  ],
+  "contacto_corporativo": {
+    "direccion": "Santa Magdalena 75, Of. 710, Providencia, Santiago",
+    "telefono": "(+56) 2 2432 0200",
+    "correo": "fda@fda.cl",
+    "web": "https://www.fda.cl",
+    "fuente": "https://www.direcmin.com/fda-ingenieros-s-a/informacion-de-contacto"
+  }
+}
