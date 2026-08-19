@@ -1,0 +1,138 @@
+{
+  "empresa": "Ingeniería y Construcción Sigdo Koppers S.A. (SKIC)",
+  "slug": "sigdo-koppers",
+  "rubro": "EPC/EPCM industrial: ingeniería, construcción y montaje electromecánico para minería, generación/transmisión de energía e infraestructura",
+  "clasificacion": "CANAL",
+  "justificacion_angulo": "EPC industrial que ejecuta obra gruesa, montaje y BOP eléctrico, pero subcontrata la especialidad de control (SCADA, protecciones IEC 61850, DCS, instrumentación) a integradores como CONECTA",
+  "quien_es": {
+    "descripcion": "División de ingeniería y construcción del grupo Sigdo Koppers. Construcción industrial integral: ingeniería, obras civiles, montaje electromecánico, instalación y suministro con transporte. Operaciones directas en Chile, Perú, Brasil y Colombia. Nace de la asociación (1960) entre Ingenieros Asociados Sigma Donoso (Chile) y Koppers Co. de Pittsburgh (EE.UU.).",
+    "fundada": "1960",
+    "dotacion": "más de 15.000 colaboradores (peak anual, sitio oficial skic.com); ~4.600 colaboradores directos según sigdokoppers.cl (2024)",
+    "facturacion": "Ingresos consolidados 2021: CLP $479.500 millones (~US$624 millones); EBITDA 2021 CLP $32.264 millones",
+    "matriz_grupo": "Sigdo Koppers S.A. (RUT 99.598.300-1), holding diversificado (Servicios, Industrial, Comercial/Automotriz)",
+    "rut": "91.915.000-9",
+    "sede": "Málaga 120, Las Condes, Santiago, Chile (CP 7550133)",
+    "fuentes": [
+      "https://www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk/",
+      "https://www.sigdokoppers.cl/quienes-somos/historia/",
+      "https://www.skic.com/",
+      "https://www.sigdokoppers.cl/content/uploads/memoria-sk-completa-2021-.pdf",
+      "https://www.cmfchile.cl/institucional/mercados/entidad.php?rut=91915000"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería (básica y de detalle)",
+      "Obras civiles",
+      "Montaje electromecánico",
+      "Instalación y suministro con transporte",
+      "EPC minería (chancado, correas, manejo de materiales, plantas)",
+      "EPC energía (subestaciones, líneas de transmisión, BOP eléctrico eólico)"
+    ],
+    "rol_cadena": "EPC integral (ingeniería + procura + construcción + montaje) con capacidad eléctrica propia (BOP eléctrico, subestaciones, líneas) — ver Parque Eólico Horizonte. La capa de control/protección (SCADA, PMU, relés IEC 61850, DCS, instrumentación) la subcontrata a especialistas; SKIC no es integrador de control.",
+    "fuentes": [
+      "https://www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk/",
+      "https://www.skic.com/gobierno-corporativo/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Parque Eólico Horizonte — EPC BOP Eléctrico (subestaciones, línea 2×220 kV ~25 km, red MT, montaje)",
+      "cliente": "Colbún",
+      "ubicacion": "Taltal, Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://es.linkedin.com/posts/sigdokoppers-skic_skic-sigdokoppers-epc-activity-6847183478434390016-6sZx"
+    },
+    {
+      "proyecto": "Montaje Electromecánico Planta de Proceso — Salares Norte",
+      "cliente": "Gold Fields Salares Norte SpA",
+      "ubicacion": "Salares Norte, Región de Atacama, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.sigdokoppers.cl/content/uploads/estados-financieros-pdf99598300-202406.pdf"
+    },
+    {
+      "proyecto": "Consorcio SK-TNT: EPC manejo de materiales para la gran minería (avance ~84% a mayo 2026)",
+      "cliente": "Operación minera de cobre (no divulgado en fuente)",
+      "ubicacion": "Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://revista.ingenieros.cl/2026/2026/05/13/consorcio-sk-tnt-avanza-en-proyecto-epc-de-manejo-de-materiales-para-la-gran-mineria/"
+    },
+    {
+      "proyecto": "Salas de Chancado y Sistemas de Transporte Intermedio (PMCHS, Chuquicamata Subterránea)",
+      "cliente": "Codelco",
+      "ubicacion": "Chuquicamata, Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://www.codelco.com/salas-de-chancado-y-sistemas-de-transporte-intermedio"
+    },
+    {
+      "proyecto": "Backlog 3T25 (contratos en ejecución): Montaje y obras infraestructura (Codelco, US$69M backlog); PD1 Ductos & Obras Mauro (AMSA, US$65M); BOOT SIAM II–DMC (AMSA, US$57M); Domo Pila Mina y Correa (Codelco DCH, US$39M); EPC Manejo Materiales PV1 (AMSA, US$38M); Chancado y Correas (Codelco, US$16M)",
+      "cliente": "Codelco y Antofagasta Minerals (AMSA)",
+      "ubicacion": "Faenas mineras en Chile",
+      "monto": "Montos = valor backlog pendiente al 3T25 (no monto total de contrato)",
+      "fuente": "https://api.atdesdecero.app/pdf_directos/SK_an%C3%A1lisis_razonado_2025-11-28_191127.pdf"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Caroline Vender Herrera",
+      "cargo": "CEO (Gerente General) SKIC Group y SKIC Chile",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Caroline%20Vender%20SKIC",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    },
+    {
+      "nombre": "Mirko Jordan",
+      "cargo": "Gerente Técnico e Ingeniería",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    },
+    {
+      "nombre": "Marco Guerrero",
+      "cargo": "Gerente de Procura y Maquinarias",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    },
+    {
+      "nombre": "Héctor Astete",
+      "cargo": "Gerente de Presupuesto",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    },
+    {
+      "nombre": "James Burns",
+      "cargo": "Gerente Comercial",
+      "tipo": "jefe_propuestas",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    },
+    {
+      "nombre": "Osvaldo Rojas",
+      "cargo": "Gerente de Operaciones",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://www.skic.com/gobierno-corporativo/"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Málaga 120, Las Condes, Santiago, Chile (CP 7550133)",
+    "telefono": "(+56 2) 2837 4333",
+    "correo": "contacto@skic.com",
+    "web": "https://www.skic.com",
+    "fuente": "https://www.skic.com/gobierno-corporativo/"
+  }
+}

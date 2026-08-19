@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ingeniería y Construcción Sigdo Koppers S.A. (SKIC) — Canal/Socio CONECTA</title><style>
+  :root { --bg:#f8fafc; --ink:#071324; --accent:#2563eb; --accent-soft:#dbeafe;
+          --accent-softer:#eff6ff; --green:#059669; --green-soft:#d1fae5;
+          --amber:#d97706; --amber-soft:#fef3c7; --muted:#64748b; --border:#e2e8f0;
+          --radius-lg:20px; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Inter',-apple-system,sans-serif; background:var(--bg); color:var(--ink);
+         line-height:1.55; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:1120px; margin:0 auto; padding:40px 24px 80px; }
+  .kicker { display:inline-block; font-size:12px; font-weight:600; letter-spacing:.12em;
+            text-transform:uppercase; color:var(--accent); background:var(--accent-softer);
+            padding:6px 14px; border-radius:100px; }
+  h1 { font-size:32px; font-weight:700; margin-top:14px; letter-spacing:-.02em; }
+  .sub { color:var(--muted); font-size:15px; margin-top:6px; max-width:720px; }
+  .back { display:inline-flex; align-items:center; gap:6px; font-size:13px; font-weight:600;
+          color:var(--accent); text-decoration:none; margin-bottom:22px; }
+  .legend { display:flex; gap:10px; margin:24px 0 8px; flex-wrap:wrap; }
+  .legend span { display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500;
+                 color:var(--muted); background:#fff; border:1px solid var(--border);
+                 padding:8px 14px; border-radius:100px; }
+  .dot { width:10px; height:10px; border-radius:50%; }
+  .dot.c { background:var(--green); } .dot.s { background:var(--accent); } .dot.comp { background:var(--amber); }
+  .section-title { font-size:19px; font-weight:700; margin:30px 0 14px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:14px; }
+  .card { background:#fff; border:1px solid var(--border); border-radius:var(--radius-lg);
+          padding:20px; box-shadow:0 1px 2px rgba(7,19,36,.04); }
+  a.card.ficha-link { text-decoration:none; color:inherit; display:flex; flex-direction:column;
+          transition:box-shadow .15s ease, transform .15s ease; }
+  a.card.ficha-link:hover { box-shadow:0 8px 24px rgba(7,19,36,.08); transform:translateY(-2px); }
+  .card-head { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:4px; }
+  .card h3 { font-size:17px; font-weight:700; }
+  .badge { font-size:11px; font-weight:700; letter-spacing:.04em; padding:3px 10px;
+           border-radius:100px; white-space:nowrap; }
+  .region { font-size:12.5px; color:var(--muted); margin-bottom:10px; }
+  .meta { font-size:13px; margin-bottom:8px; } .meta div { margin-bottom:3px; } .meta b { color:var(--ink); }
+  .ing { font-size:12.5px; color:var(--accent); font-weight:600; }
+
+  .section { margin-top:30px; }
+  .section h2 { font-size:19px; font-weight:700; margin-bottom:12px; padding-bottom:8px;
+                border-bottom:2px solid var(--accent-soft); }
+  .kv { font-size:13.5px; } .kv div { margin-bottom:4px; } .kv b { color:var(--ink); }
+  .serv { margin:0 0 8px 18px; font-size:13.5px; } .serv li { margin-bottom:3px; }
+  .rolc { font-size:13.5px; color:var(--muted); }
+  .fuente { font-size:11.5px; color:var(--muted); margin-top:8px; padding-left:14px; }
+  .fuente a { color:var(--accent); text-decoration:none; word-break:break-all; }
+  .fuente a:hover { text-decoration:underline; }
+  .fuente::before { content:"\2192 "; color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; background:#fff;
+          border-radius:var(--radius-lg); overflow:hidden; border:1px solid var(--border); }
+  th { background:var(--accent-softer); color:var(--ink); font-weight:700; text-align:left;
+       padding:10px 12px; font-size:12px; }
+  td { padding:10px 12px; border-top:1px solid var(--border); vertical-align:top; }
+  td.src { font-size:11px; color:var(--muted); min-width:140px; }
+  td.src .fuente { margin-top:0; padding-left:0; }
+  .contacto { display:flex; align-items:center; justify-content:space-between; gap:10px;
+              margin-bottom:6px; font-size:13.5px; padding-bottom:8px; border-bottom:1px solid var(--border); }
+  .contacto:last-of-type { border-bottom:none; }
+  .contacto .nombre { font-weight:700; }
+  .rol { font-size:12px; color:var(--muted); }
+  .contacto .cta { display:flex; gap:6px; flex-shrink:0; flex-wrap:wrap; }
+  .chip { font-size:11px; font-weight:600; padding:4px 10px; border-radius:100px; text-decoration:none;
+          background:var(--accent-softer); color:var(--accent); white-space:nowrap; }
+  .chip:hover { background:var(--accent-soft); }
+  .chip.mail { background:var(--green-soft); color:var(--green); }
+  .tag { display:inline-block; font-size:11px; font-weight:700; padding:3px 10px; border-radius:100px; }
+  .tag-verde { background:var(--green-soft); color:var(--green); }
+  .tag-amb { background:var(--amber-soft); color:var(--amber); }
+  .tag-azul { background:var(--accent-softer); color:var(--accent); }
+  .tag-gris { background:#e2e8f0; color:#475569; }
+  .oportunidad { border-left:4px solid var(--amber); }
+  .oportunidad p { font-size:13.5px; color:var(--muted); margin-top:6px; }
+  footer { margin-top:40px; color:var(--muted); font-size:12px; text-align:center; }
+  .warn { background:var(--amber-soft); border:1px solid var(--amber); color:var(--amber);
+          border-radius:12px; padding:10px 14px; font-size:12.5px; margin-top:14px; }
+</style></head>
+<body><div class="wrap">
+<a class="back" href="index.html">← Volver al catálogo</a>
+<header><span class="kicker">Canal / Socio · Ingeniería industrial</span>
+<h1>Ingeniería y Construcción Sigdo Koppers S.A. (SKIC)</h1>
+<p class="sub">EPC/EPCM industrial: ingeniería, construcción y montaje electromecánico para minería, generación/transmisión de energía e infraestructura</p></header>
+<div class="section"><h2>1 · Quién es</h2><div class="card"><div class="kv"><div>División de ingeniería y construcción del grupo Sigdo Koppers. Construcción industrial integral: ingeniería, obras civiles, montaje electromecánico, instalación y suministro con transporte. Operaciones directas en Chile, Perú, Brasil y Colombia. Nace de la asociación (1960) entre Ingenieros Asociados Sigma Donoso (Chile) y Koppers Co. de Pittsburgh (EE.UU.).</div><div><b>Fundada:</b> 1960</div><div><b>Dotación:</b> más de 15.000 colaboradores (peak anual, sitio oficial skic.com); ~4.600 colaboradores directos según sigdokoppers.cl (2024)</div><div><b>Facturación:</b> Ingresos consolidados 2021: CLP $479.500 millones (~US$624 millones); EBITDA 2021 CLP $32.264 millones</div><div><b>Matriz / grupo:</b> Sigdo Koppers S.A. (RUT 99.598.300-1), holding diversificado (Servicios, Industrial, Comercial/Automotriz)</div><div><b>RUT:</b> 91.915.000-9</div><div><b>Sede:</b> Málaga 120, Las Condes, Santiago, Chile (CP 7550133)</div></div><div class="fuente"><a href="https://www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk/" target="_blank" rel="noopener">www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk</a> · <a href="https://www.sigdokoppers.cl/quienes-somos/historia/" target="_blank" rel="noopener">www.sigdokoppers.cl/quienes-somos/historia</a> · <a href="https://www.skic.com/" target="_blank" rel="noopener">www.skic.com</a> · <a href="https://www.sigdokoppers.cl/content/uploads/memoria-sk-completa-2021-.pdf" target="_blank" rel="noopener">www.sigdokoppers.cl/content/uploads/memoria-sk-completa-2…</a> · <a href="https://www.cmfchile.cl/institucional/mercados/entidad.php?rut=91915000" target="_blank" rel="noopener">www.cmfchile.cl/institucional/mercados/entidad.php?rut=91…</a></div></div></div><div class="section"><h2>2 · Qué hace</h2><div class="card"><ul class="serv"><li>Ingeniería (básica y de detalle)</li><li>Obras civiles</li><li>Montaje electromecánico</li><li>Instalación y suministro con transporte</li><li>EPC minería (chancado, correas, manejo de materiales, plantas)</li><li>EPC energía (subestaciones, líneas de transmisión, BOP eléctrico eólico)</li></ul><p class="rolc">EPC integral (ingeniería + procura + construcción + montaje) con capacidad eléctrica propia (BOP eléctrico, subestaciones, líneas) — ver Parque Eólico Horizonte. La capa de control/protección (SCADA, PMU, relés IEC 61850, DCS, instrumentación) la subcontrata a especialistas; SKIC no es integrador de control.</p><div class="fuente"><a href="https://www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk/" target="_blank" rel="noopener">www.sigdokoppers.cl/areas-de-negocio/servicios/empresa-icsk</a> · <a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div></div></div><div class="section"><h2>3 · Proyectos / clientes</h2><table><tr><th>Proyecto</th><th>Cliente</th><th>Ubicación</th><th>Monto</th><th>Fuente</th></tr><tr><td><b>Parque Eólico Horizonte — EPC BOP Eléctrico (subestaciones, línea 2×220 kV ~25 km, red MT, montaje)</b></td><td>Colbún</td><td>Taltal, Región de Antofagasta, Chile</td><td></td><td class="src"><div class="fuente"><a href="https://es.linkedin.com/posts/sigdokoppers-skic_skic-sigdokoppers-epc-activity-6847183478434390016-6sZx" target="_blank" rel="noopener">es.linkedin.com/posts/sigdokoppers-skic_skic-sigdokoppers…</a></div></td></tr><tr><td><b>Montaje Electromecánico Planta de Proceso — Salares Norte</b></td><td>Gold Fields Salares Norte SpA</td><td>Salares Norte, Región de Atacama, Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.sigdokoppers.cl/content/uploads/estados-financieros-pdf99598300-202406.pdf" target="_blank" rel="noopener">www.sigdokoppers.cl/content/uploads/estados-financieros-p…</a></div></td></tr><tr><td><b>Consorcio SK-TNT: EPC manejo de materiales para la gran minería (avance ~84% a mayo 2026)</b></td><td>Operación minera de cobre (no divulgado en fuente)</td><td>Región de Antofagasta, Chile</td><td></td><td class="src"><div class="fuente"><a href="https://revista.ingenieros.cl/2026/2026/05/13/consorcio-sk-tnt-avanza-en-proyecto-epc-de-manejo-de-materiales-para-la-gran-mineria/" target="_blank" rel="noopener">revista.ingenieros.cl/2026/2026/05/13/consorcio-sk-tnt-av…</a></div></td></tr><tr><td><b>Salas de Chancado y Sistemas de Transporte Intermedio (PMCHS, Chuquicamata Subterránea)</b></td><td>Codelco</td><td>Chuquicamata, Región de Antofagasta, Chile</td><td></td><td class="src"><div class="fuente"><a href="https://www.codelco.com/salas-de-chancado-y-sistemas-de-transporte-intermedio" target="_blank" rel="noopener">www.codelco.com/salas-de-chancado-y-sistemas-de-transport…</a></div></td></tr><tr><td><b>Backlog 3T25 (contratos en ejecución): Montaje y obras infraestructura (Codelco, US$69M backlog); PD1 Ductos &amp; Obras Mauro (AMSA, US$65M); BOOT SIAM II–DMC (AMSA, US$57M); Domo Pila Mina y Correa (Codelco DCH, US$39M); EPC Manejo Materiales PV1 (AMSA, US$38M); Chancado y Correas (Codelco, US$16M)</b></td><td>Codelco y Antofagasta Minerals (AMSA)</td><td>Faenas mineras en Chile</td><td>Montos = valor backlog pendiente al 3T25 (no monto total de contrato)</td><td class="src"><div class="fuente"><a href="https://api.atdesdecero.app/pdf_directos/SK_an%C3%A1lisis_razonado_2025-11-28_191127.pdf" target="_blank" rel="noopener">api.atdesdecero.app/pdf_directos/SK_an%C3%A1lisis_razonad…</a></div></td></tr></table></div><div class="section"><h2>4 · Tomadores de decisión</h2><div class="card"><div class="contacto"><div><span class="nombre">Caroline Vender Herrera</span><div class="rol">CEO (Gerente General) SKIC Group y SKIC Chile</div></div><div class="cta"><a class="chip" href="https://www.linkedin.com/search/results/people/?keywords=Caroline%20Vender%20SKIC" target="_blank" rel="noopener">LinkedIn ↗</a></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div><div class="contacto"><div><span class="nombre">Mirko Jordan</span><div class="rol">Gerente Técnico e Ingeniería</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div><div class="contacto"><div><span class="nombre">Marco Guerrero</span><div class="rol">Gerente de Procura y Maquinarias</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div><div class="contacto"><div><span class="nombre">Héctor Astete</span><div class="rol">Gerente de Presupuesto</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div><div class="contacto"><div><span class="nombre">James Burns</span><div class="rol">Gerente Comercial</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div><div class="contacto"><div><span class="nombre">Osvaldo Rojas</span><div class="rol">Gerente de Operaciones</div></div><div class="cta"></div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div></div></div><div class="section"><h2>5 · Contacto corporativo</h2><div class="card"><div class="kv"><div><b>Dirección:</b> Málaga 120, Las Condes, Santiago, Chile (CP 7550133)</div><div><b>Teléfono:</b> (+56 2) 2837 4333</div><div><b>Correo:</b> contacto@skic.com</div><div><b>Web:</b> https://www.skic.com</div></div><div class="fuente"><a href="https://www.skic.com/gobierno-corporativo/" target="_blank" rel="noopener">www.skic.com/gobierno-corporativo</a></div></div></div><div class="section"><h2>6 · Ángulo CONECTA</h2><div class="card oportunidad"><h3>Ángulo CONECTA <span class="tag tag-verde">CANAL</span></h3>
+      <p>EPC industrial que ejecuta obra gruesa, montaje y BOP eléctrico, pero subcontrata la especialidad de control (SCADA, protecciones IEC 61850, DCS, instrumentación) a integradores como CONECTA</p></div></div>
+<footer>CONECTA Ingeniería · Catálogo de ingenierías · agosto 2026 · Cada dato cita su fuente verificable</footer>
+</div></body></html>
