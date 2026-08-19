@@ -1,0 +1,58 @@
+{
+  "empresa": "Tunning Ingeniería SpA (Tunning Electric)",
+  "slug": "tunning",
+  "rubro": "Integrador de automatización y control industrial: SCADA eléctrico, protecciones eléctricas, control de procesos y accionamientos (partners Rockwell, Siemens, Schneider).",
+  "clasificacion": "COMPETIDOR",
+  "justificacion_angulo": "Solapamiento directo en SCADA, protecciones eléctricas y control de proceso; la diferenciación de CONECTA es DCS SUPCON + PMU/RTU, donde Tunning no representa DCS.",
+  "quien_es": {
+    "descripcion": "Empresa tecnológica de ingeniería eléctrica que desarrolla automatización y accionamiento eléctrico para grandes proyectos industriales; integradora de sistemas de control.",
+    "fundada": "1994 por Juan Claudio Jara (Ing. Civil Electricista, U. de Chile)",
+    "dotacion": "~141 trabajadores (ChilePymes); ~200 en peak operacional",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Sociedad propia (TUNNING INGENIERIA SpA, ex Limitada); operaciones en Chile, Perú y EE.UU.",
+    "rut": "78.554.660-1",
+    "sede": "Lautaro 803, Providencia, Santiago · oficinas Calama (Av. Central Norte 1644, Villa Ayquina), Lima (Av. Larco 880, Miraflores) y Houston (Texas)",
+    "fuentes": [
+      "https://tunning-electric.com/sobre-nosotros/",
+      "https://tunning-electric.com/liderazgo/",
+      "https://chilepymes.com/info/tunning-ingenieria-spa-11404419D446F111",
+      "https://dequienes.cl/diario-oficial/2021/11/20/tunning-ingenieria-limitada-78554660-1-2044411"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Sistemas de control industrial (automatización y accionamiento eléctrico)",
+      "SCADA eléctrico",
+      "Protecciones eléctricas",
+      "Sistemas de control de proceso",
+      "Sistemas de reportabilidad",
+      "Proyectos greenfield, brownfield y modernización de sistemas"
+    ],
+    "rol_cadena": "Integrador de control/automatización: integra SCADA, protecciones y control de proceso con partners Rockwell, Siemens y Schneider (alianzas desde 1997). No es montajista de obra gruesa; compite con CONECTA en la franja de SCADA/protecciones/control.",
+    "fuentes": [
+      "https://tunning-electric.com/que-ofrecemos/",
+      "https://tunning-electric.com/lo-que-hacemos/",
+      "https://tunning-electric.com/sobre-nosotros/"
+    ]
+  },
+  "proyectos": [
+    {"proyecto": "Proyecto Los Colorados (destacado)", "cliente": "minería (no especificado en sitio)", "ubicacion": "Atacama", "monto": "no verificado", "fuente": "https://tunning-electric.com/proyecto-los-colorados/"},
+    {"proyecto": "SCADA para equipos de potencia — 'primera minera digital del mundo' (2019)", "cliente": "gran empresa minera de Perú (no especificada)", "ubicacion": "Perú (Lima, Arequipa)", "monto": "no verificado", "fuente": "https://tunning-electric.com/proyectos-y-experiencias/"},
+    {"proyecto": "Sistema de control botadero de ripios (2021, pruebas de interoperabilidad en Santiago)", "cliente": "minería de clase mundial (no especificada)", "ubicacion": "norte de Chile", "monto": "no verificado", "fuente": "https://tunning-electric.com/proyectos-y-experiencias/"},
+    {"proyecto": "Migración de sistemas de control (tecnología Rockwell) en planta de almacenamiento de materias primas", "cliente": "empresa de almacenamiento/distribución (no especificada)", "ubicacion": "Chile", "monto": "no verificado", "fuente": "https://tunning-electric.com/proyectos-y-experiencias/"}
+  ],
+  "tomadores": [
+    {"nombre": "Juan Claudio Jara Beltrán", "cargo": "Fundador y Gerente General", "tipo": "gerente_general", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://tunning-electric.com/liderazgo/"},
+    {"nombre": "Jorge Elmohrez", "cargo": "Jefe de Operaciones (Ing. Civil Electrónico UTFSM; control automático y accionamientos eléctricos)", "tipo": "jefe_ic", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://tunning-electric.com/liderazgo/"},
+    {"nombre": "Daniela Jara", "cargo": "Gerenta Comercial (técnico en electricidad y automatización)", "tipo": "jefe_propuestas", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://tunning-electric.com/liderazgo/"},
+    {"nombre": "Francisca Jara", "cargo": "Gerenta Administración y Finanzas", "tipo": "abastecimiento", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://tunning-electric.com/liderazgo/"},
+    {"nombre": "Solange Poblete", "cargo": "Jefa de Recursos Humanos", "tipo": "abastecimiento", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://tunning-electric.com/liderazgo/"}
+  ],
+  "contacto_corporativo": {
+    "direccion": "Lautaro 803, Providencia, Santiago (Chile)",
+    "telefono": "+56 2 2620 1300 (central)",
+    "correo": "ventas@tunning.cl",
+    "web": "https://tunning-electric.com",
+    "fuente": "https://www.direcmin.com/tunning-ingenier-a-ltda/productos-o-servicios"
+  }
+}
