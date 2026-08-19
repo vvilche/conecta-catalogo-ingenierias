@@ -1,0 +1,52 @@
+{
+  "empresa": "JRI Ingeniería S.A.",
+  "slug": "jri",
+  "rubro": "Consultora de ingeniería multidisciplinaria para minería y metalurgia (plantas, relaves, pipelines)",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "Especifica electricidad, instrumentación y control en proyectos de plantas/relaves/pipelines pero no integra SCADA/DCS, por lo que puede subcontratar a CONECTA como especialista I&C.",
+  "quien_es": {
+    "descripcion": "Consultora de ingeniería multidisciplinaria chilena especializada en minería (rajo y subterránea), plantas concentradoras, relaves y transporte hidráulico de pulpas (pipelines). Cubre todas las etapas: estudios de perfil, prefactibilidad, factibilidad, ingeniería básica y de detalle, ingeniería de terreno, adquisiciones y puesta en marcha. Especifica mecánica, piping, electricidad, instrumentación y control.",
+    "fundada": "hacia 1982 (fundada como 'Juan Rayo Ingeniería'; desde 1991 opera como JRI Ingeniería S.A.)",
+    "dotacion": "no verificado",
+    "facturacion": "no verificado",
+    "matriz_grupo": "Grupo JRI (empresas asociadas: REICH-JRI, PJ-INC, ORSA Operaciones Relave S.A., JRI Perú, Gerenpro)",
+    "rut": "",
+    "sede": "Casa Central: Luis Uribe 2343, Ñuñoa, Santiago. Sede: Suecia 211, Providencia. Sede Lima, Perú.",
+    "fuentes": ["https://www.jri.cl/historia/", "https://www.jri.cl/"]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería conceptual, básica y de detalle",
+      "Estudios de perfil, prefactibilidad y factibilidad",
+      "Ingeniería de plantas concentradoras, relaves y minería subterránea",
+      "Diseño de sistemas de transporte hidráulico (mineroductos, relaveductos, concentraductos)",
+      "Mecánica, piping, electricidad e instrumentación y control",
+      "Supervisión de construcción y puesta en marcha"
+    ],
+    "rol_cadena": "Consultora de ingeniería pura (no hace EPC ni construcción); entrega especificaciones de electricidad, instrumentación y control pero no integra SCADA/DCS ni ejecuta montaje eléctrico.",
+    "fuentes": ["https://www.jri.cl/", "https://www.jri.cl/historia/"]
+  },
+  "proyectos": [
+    {"proyecto": "Ingeniería de Prefactibilidad Nivel 2 (FEL 2A/2B) — Chuquicamata Subterráneo", "cliente": "Codelco", "ubicacion": "Calama, Región de Antofagasta", "monto": "no verificado", "fuente": "https://cl.linkedin.com/posts/jri-ingenier-a-sa_jri-se-adjudica-ingenier%C3%ADa-de-prefactibilidad-activity-7055181268870664193-G4OG"},
+    {"proyecto": "Proyecto Rajo Inca (ingeniería conceptual hasta implementación)", "cliente": "Codelco División Salvador", "ubicacion": "Región de Atacama", "monto": "no verificado", "fuente": "https://www.jri.cl/historia/"},
+    {"proyecto": "Primeros espesadores de pasta de gran tamaño a nivel nacional", "cliente": "Minera Esperanza (hoy Centinela) y Compañía Minera Collahuasi", "ubicacion": "Región de Antofagasta / Tarapacá", "monto": "no verificado", "fuente": "https://www.jri.cl/historia/"},
+    {"proyecto": "Proyectos de minería subterránea: Dacita, Recursos Norte, Pacífico Superior, Diamante y Andesita", "cliente": "Codelco División El Teniente", "ubicacion": "Región de O'Higgins", "monto": "no verificado", "fuente": "https://www.jri.cl/historia/"},
+    {"proyecto": "Sistema de transporte de pulpa gravitacional (primeros contratos históricos)", "cliente": "Ex Disputada de Las Condes y Codelco", "ubicacion": "Región Metropolitana / Chile", "monto": "no verificado", "fuente": "https://www.jri.cl/historia/"}
+  ],
+  "tomadores": [
+    {"nombre": "Sebastián Rayo", "cargo": "Gerente Técnico", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Rodrigo Valenzuela", "cargo": "Gerente de Operaciones", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Pablo Rojas", "cargo": "Gerente Unidad de Negocios Minería", "tipo": "gerente_proyectos", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Juan Pablo Henríquez", "cargo": "Gerente Unidad de Negocios Plantas Concentradoras", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Jorge Serey", "cargo": "Gerente Unidad de Negocios Pipelines", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Jorge Riquelme", "cargo": "Gerente Unidad de Negocios Relaves", "tipo": "jefe_ingenieria", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"},
+    {"nombre": "Soledad Gutiérrez", "cargo": "Gerente General", "tipo": "gerente_general", "correo": "", "telefono": "", "linkedin": "", "fuente": "https://www.jri.cl/gerencia/"}
+  ],
+  "contacto_corporativo": {
+    "direccion": "Luis Uribe 2343, Ñuñoa, Santiago (Casa Central)",
+    "telefono": "+56 22 361 8200",
+    "correo": "jri@jri.cl",
+    "web": "https://www.jri.cl",
+    "fuente": "https://www.jri.cl/"
+  }
+}
