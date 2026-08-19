@@ -1,0 +1,136 @@
+{
+  "empresa": "Pares y Álvarez Ingenieros Asociados Ltda.",
+  "slug": "pares_alvarez",
+  "rubro": "Ingeniería, gerenciamiento de construcción, compras y EPC/EPCM/EPS industrial (minería, energía, desalación, manufactura).",
+  "clasificacion": "SOCIO",
+  "justificacion_angulo": "EPCM que especifica y subcontrata la especialidad eléctrica/I&C (SCADA, control, instrumentación); CONECTA entra como subcontratista de esa especialidad en sus proyectos.",
+  "quien_es": {
+    "descripcion": "Empresa chilena de ingeniería y proyectos fundada en 1994 en Concepción; EPC/EPCM/EPS, consultoría, compras y medio ambiente, con más de 30 años de experiencia y oficinas en Santiago, Concepción, Calama, Lima (Perú), Perth (Australia) y Tampa (EE.UU.).",
+    "fundada": "1994 (inicio de actividades SII 01-09-1994)",
+    "dotacion": "~189 colaboradores (ChilePymes); >1.000 profesionales según Cámara Chileno-Australiana",
+    "facturacion": "Tramo de ventas 11/13 (alto); monto exacto no verificado",
+    "matriz_grupo": "No verificado (sociedad propia; asociada a Synertek PPA en EE.UU.)",
+    "rut": "78.548.230-1",
+    "sede": "Cerro El Plomo 5630, Of. 1501, Las Condes, Santiago, Chile",
+    "fuentes": [
+      "https://pya.cl/nosotros/",
+      "https://chilepymes.com/info/pares-y-alvarez-ingenieros-asociados-limitada-2D30F935FEAC2406",
+      "https://datalux.cl/empresa/78548230-1-pares-y-alvarez-ingenieros-asociados-ltda/",
+      "https://www.canchamchile.cl/2024/02/16/pares-y-alvarez/"
+    ]
+  },
+  "que_hace": {
+    "servicios": [
+      "Ingeniería conceptual, básica y de detalles",
+      "Gerenciamiento de proyectos y de construcción",
+      "Compras y adquisiciones",
+      "EPC / EPCM / EPS",
+      "Consultoría",
+      "Medio ambiente"
+    ],
+    "rol_cadena": "EPC/EPCM integral: ejecuta ingeniería, compras y gerenciamiento de construcción, y subcontrata las especialidades de montaje eléctrico, instrumentación y control (espacio donde calza CONECTA).",
+    "fuentes": [
+      "https://pya.cl/servicio/soluciones-epcm-epc-eps/",
+      "https://pya.cl/servicio/ingenieria/",
+      "https://pya.cl/servicio/consultoria/"
+    ]
+  },
+  "proyectos": [
+    {
+      "proyecto": "Planta Desaladora Agua de Mar — Spence Growth Option (SGO)",
+      "cliente": "BHP",
+      "ubicacion": "Mejillones, Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/sala-de-prensa/page/8/"
+    },
+    {
+      "proyecto": "Ampliación Fábrica de Botellas de Vidrio, Planta Rengo",
+      "cliente": "Verallia",
+      "ubicacion": "Rengo, Región de O'Higgins, Chile",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/servicio/soluciones-epcm-epc-eps/"
+    },
+    {
+      "proyecto": "Gerenciamiento de Construcción — Minera Las Bambas",
+      "cliente": "MMG",
+      "ubicacion": "Cusco, Perú",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/servicio/soluciones-epcm-epc-eps/"
+    },
+    {
+      "proyecto": "Planta de Chancado, Minera Centinela",
+      "cliente": "Antofagasta Minerals",
+      "ubicacion": "Sierra Gorda, Región de Antofagasta, Chile",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/servicio/consultoria/"
+    },
+    {
+      "proyecto": "Proyecto PtX e-Combustible (balance de planta metanol→gasolina verde)",
+      "cliente": "HIF",
+      "ubicacion": "Región de Magallanes (norte de Punta Arenas), Chile",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/servicio/medio-ambiente/"
+    },
+    {
+      "proyecto": "Planta Osmótica de Quintero — Desalinizadora Multipropósito Aguas Pacífico",
+      "cliente": "IDE Technologies",
+      "ubicacion": "Bahía de Quintero (V Región) hasta Quilpilán (RM), Chile",
+      "monto": "no verificado",
+      "fuente": "https://pya.cl/servicio/consultoria/"
+    }
+  ],
+  "tomadores": [
+    {
+      "nombre": "Víctor Contreras C.",
+      "cargo": "Gerente General",
+      "tipo": "gerente_general",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://pya.cl/nosotros/"
+    },
+    {
+      "nombre": "Mauricio Arce I.",
+      "cargo": "Gerente Corporativo de Proyectos",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://pya.cl/nosotros/"
+    },
+    {
+      "nombre": "Ricardo Contreras M.",
+      "cargo": "Gerente de Ingeniería",
+      "tipo": "jefe_ingenieria",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://pya.cl/nosotros/"
+    },
+    {
+      "nombre": "Rodrigo Dassori G.",
+      "cargo": "Director de Proyectos de Ingeniería",
+      "tipo": "gerente_proyectos",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://pya.cl/nosotros/"
+    },
+    {
+      "nombre": "Cynthia Amstein R.",
+      "cargo": "Gerente de Administración y Finanzas (responsable de adquisiciones)",
+      "tipo": "abastecimiento",
+      "correo": "",
+      "telefono": "",
+      "linkedin": "",
+      "fuente": "https://pya.cl/nosotros/"
+    }
+  ],
+  "contacto_corporativo": {
+    "direccion": "Cerro El Plomo 5630, Of. 1501, Las Condes, Santiago (también Concepción: Marco Polo 8939, Hualpén)",
+    "telefono": "+56 2 2714 4000 (Santiago); +56 41 290 8700 (Concepción)",
+    "correo": "info@pya.cl (formato inferido, a verificar)",
+    "web": "https://pya.cl",
+    "fuente": "https://pya.cl/contacto/"
+  }
+}
