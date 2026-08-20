@@ -257,7 +257,7 @@ def ficha_page(c):
     if s5: secs.append('<div class="section"><h2>6 · Ángulo CONECTA</h2>' + s5 + '</div>')
     return f'''<!DOCTYPE html>
 <html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{esc(c["empresa"])} — Canal/Socio CONECTA</title><style>{CSS}</style></head>
+<title>{esc(c["empresa"])} · Compañías de Ingeniería</title><style>{CSS}</style></head>
 <body><div class="wrap">
 <a class="back" href="index.html">← Volver al catálogo</a>
 <header><span class="kicker">Canal / Socio · Ingeniería industrial</span>
@@ -271,10 +271,10 @@ def index_page(comps):
     cards = ''.join(card_index(c) for c in comps)
     return f'''<!DOCTYPE html>
 <html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo de Ingenierías — Canal/Socio CONECTA</title><style>{CSS}</style></head>
+<title>Compañías de Ingeniería</title><style>{CSS}</style></head>
 <body><div class="wrap">
 <header><span class="kicker">Inteligencia comercial · Ingeniería industrial</span>
-<h1>Catálogo de Ingenierías — Canal / Socio CONECTA</h1>
+<h1>Compañías de Ingeniería</h1>
 <p class="sub">Empresas de ingeniería y construcción industrial en Chile tipo PUMA (EPC/EPCM, integradores de control, montajistas eléctricos/instrumentación). Cada ficha trae: quién es, qué hace, proyectos reales, tomadores de decisión técnicos y el ángulo CONECTA — todo con fuente verificable.</p></header>
 <div class="legend">
 <span><i class="dot c"></i>CANAL — subcontrata la especialidad eléctrica/control</span>
